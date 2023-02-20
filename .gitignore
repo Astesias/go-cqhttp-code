@@ -1,0 +1,4 @@
+configs*.json
+*.xml
+log/
+__pycache__

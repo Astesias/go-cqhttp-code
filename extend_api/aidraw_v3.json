@@ -1,0 +1,16 @@
+{
+"accept": "application/json, text/plain, */*",
+"accept-encoding": "gzip, deflate, br",
+"accept-language": "zh-CN",
+"authtoken": "g1AeKDlRKclTV5EMaAxhImg7Sh+a1/l8jq1KzvhRx/0=",
+"content-length": "246",
+"content-type": "application/json;charset=UTF-8",
+"fingerprint": "0ef717419ecdb7d911323be0cc4c7286",
+"origin": "https://printidea.art",
+"sec-fetch-dest": "empty",
+"sec-fetch-mode": "cors",
+"sec-fetch-site": "cross-site",
+"source-platform": "PI-PC",
+"user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36",
+"py": "ysl"
+}

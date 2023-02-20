@@ -1,0 +1,6455 @@
+[
+    {
+        "id": 100000,
+        "name": "\u901a\u7528\u6a21\u578b",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100000.png",
+        "modelId": 0,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u5e73\u9759\u7684\u6e56\u9762\uff0c\u7eff\u6811\u73af\u7ed5\uff0c\u7f8e\u4e3d\u7684\u4e61\u6751\uff0c\u843d\u65e5\u4f59\u6656",
+        "typeOrder": 10,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            }
+        ],
+        "originAmount": 0.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100001,
+        "name": "\u5efa\u7b51\u8bbe\u8ba1\u6a21\u578b",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100001.png",
+        "modelId": 7,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u672a\u6765\u4e3b\u4e49\u8bbe\u8ba1\u611f\u623f\u5c4b\u4e0e\u82b1\u56ed\u76f8\u8fde\uff0c\u7816\u623f\u6709\u9ed1\u8272\u91d1\u5c5e\u8fb9\u6846\u548c\u73bb\u7483\u7a97\uff0c\u91c7\u5149\u826f\u597d\uff0c\u623f\u5b50\u6bd7\u90bb\u8349\u5730\u548c\u9e45\u5375\u77f3\u5c0f\u5f84\uff0c\u53f0\u9636",
+        "typeOrder": 25,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100002,
+        "name": "\u4e8c\u6b21\u5143\u4e13\u7528\u6a21\u578b",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100002.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u7f8e\u4e3d\u7684\u4ed9\u5973\uff0c\u957f\u7740\u4ed9\u5973\u822c\u7684\u8033\u6735\uff0c\u94f6\u8272\u7684\u53d1\u9970\uff0c\u98d8\u9038\u7684\u91d1\u8272\u957f\u53d1\uff0c\u5300\u79f0\u7684\u6df1\u7070\u8272\u5927\u773c\u775b",
+        "typeOrder": 12,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100003,
+        "name": "\u4e8c\u6b21\u5143\u624b\u90e8\u4f18\u5316",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100003.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u5973\u5b69\u624b\u6367\u9c9c\u82b1\uff0c\u82b1\u6735\uff0c\u82b1\u74e3\u98d8\u843d\uff0c\u9ece\u660e",
+        "typeOrder": 13,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100004,
+        "name": "\u5ba4\u5185\u8bbe\u8ba1\u6a21\u578b",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100004.png",
+        "modelId": 4,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u6e29\u99a8\u73b0\u4ee3\u7684\u5ba4\u5185\u8bbe\u8ba1\uff0c\u7b80\u7ea6\u98ce\u683c\uff0c\u67d4\u8f6f\u8f7b\u76c8\u7684\u5730\u6bef\uff0c\u7c73\u8272\u6c99\u53d1\uff0c\u5c0f\u8336\u51e0\uff0c\u9760\u6795\uff0c\u91d1\u8272\u843d\u5730\u706f\uff0c\u7eff\u8272\u690d\u7269",
+        "typeOrder": 26,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100005,
+        "name": "\u6e38\u620ficon 2.0",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100005.png",
+        "modelId": 5,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u5b9d\u77f3\u98ce\u683c\u7684\u6e38\u620f\u56fe\u6807",
+        "typeOrder": 14,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100006,
+        "name": "\u901a\u7528\u6a21\u578b2.0",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100006.png",
+        "modelId": 6,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u6b27\u6d32\u7684\u57ce\u5821\uff0c\u5728\u591c\u665a\uff0c\u7b3c\u7f69\u5728\u8584\u96fe\u4e2d\uff0c\u5468\u56f4\u6709\u6811\u6728\u3001\u8def\u706f\u3001\u661f\u661f",
+        "typeOrder": 11,
+        "sizes": [
+            {
+                "id": 9,
+                "name": "1.1",
+                "width": 768,
+                "height": 768,
+                "proportion": "1.1"
+            },
+            {
+                "id": 11,
+                "name": "2:3",
+                "width": 640,
+                "height": 960,
+                "proportion": "2:3"
+            },
+            {
+                "id": 12,
+                "name": "3:2",
+                "width": 960,
+                "height": 640,
+                "proportion": "3:2"
+            },
+            {
+                "id": 13,
+                "name": "3:4",
+                "width": 768,
+                "height": 1024,
+                "proportion": "3:4"
+            },
+            {
+                "id": 14,
+                "name": "4:3",
+                "width": 1024,
+                "height": 768,
+                "proportion": "4:3"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100007,
+        "name": "\u72fc\u5c3e\u5c11\u5e74",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100007.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u7537\u5b69\uff0c\u767d\u957f\u53d1\uff0c\u84dd\u773c\u775b\uff0c\u5934\u53d1\u51cc\u4e71\uff0c\u524d\u77ed\u540e\u957f\uff0c\u5355\u4fa7\u6234\u7ea2\u8272\u957f\u6d41\u82cf\u8033\u73af",
+        "typeOrder": 102,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 6,
+                "name": "\u4e8c\u6b21\u5143\u7537\u751f",
+                "nameEn": "",
+                "orderNumber": 4
+            }
+        ]
+    },
+    {
+        "id": 100008,
+        "name": "\u9ed1\u888d\u5fa1\u59d0",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100008.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u5fa1\u59d0\u7a7f\u7740\u4e00\u4ef6\u9ed1\u8272\u6597\u7bf7\uff0c\u9ed1\u91d1\u914d\u8272\uff0c\u661f\u661f\u56f4\u7ed5\u5728\u5979\u8eab\u8fb9\uff0c\u9ad8\u51b7\u7684\u9ed1\u8272\u957f\u53d1\uff0c\u91d1\u8272\u7684\u773c\u775b",
+        "typeOrder": 112,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100009,
+        "name": "\u6bbf\u5802\u5973\u795e",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100009.png",
+        "modelId": 3,
+        "initImage": "2d3dac06c2314ba798dfe32ba684408b.jpeg",
+        "initImageStrength": 0.4,
+        "defaultPrompt": "\u9ed1\u66dc\u77f3\u822c\u7684\u773c\u775b\uff0c\u5973\u795e",
+        "typeOrder": 100,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100010,
+        "name": "\u53ef\u7231\u841d\u8389",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100010.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4fee\u957f\u7684\u817f,\u4e00\u4e2a\u5973\u5b69,solo,\u80a9\u8180\u9542\u7a7a,\u84ec\u677e\u957f\u8896,\u7f0e\u5e26\u4fee\u8fb9\u8896\u5b50,\u9ed1\u8272\u9886\u7ed3,\u540a\u5e26\u88d9,\u5927\u817f\u5e26,\u5fc3\u5f62\u9879\u94fe,\u6253\u8033\u6d1e,\u6307\u7532,\u4e1d\u5e26,\u53d1\u5e26,\u6253\u5b54,\u6ce2\u6d6a\u53d1,\u5f69\u8272\u5185\u53d1,\u6253\u8033\u6d1e,\u5fc3\u5f62\u77b3\u5b54",
+        "typeOrder": 101,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100011,
+        "name": "\u751c\u7f8e\u5c0f\u6e05\u65b0",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100011.png",
+        "modelId": 3,
+        "initImage": "0aaff5396ed04d4f8d61cbee18f8dae1.jpeg",
+        "initImageStrength": 0.5,
+        "defaultPrompt": "1\u4e2a\u5973\u5b69\uff0c\u9ed1\u8272\u5934\u53d1\uff0c\u5218\u6d77\uff0c\u84dd\u8272\u773c\u775b",
+        "typeOrder": 102,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100012,
+        "name": "\u9b54\u6cd5\u7f8e\u5c11\u5973",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100012.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u5973\u5b69\uff0c\u9ed1\u6697\u9b54\u6cd5\u5e08\uff0c\u9ed1\u8272\u819d\u76d6\uff0c\u767d\u8272\u5934\u53d1",
+        "typeOrder": 103,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100013,
+        "name": "\u7c89\u7cfb\u5c11\u5973",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100013.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u957f\u53d1\u5973\u5b69",
+        "typeOrder": 104,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100014,
+        "name": "\u82b1\u6d77\u5c0f\u4ed9\u5973",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100014.png",
+        "modelId": 2,
+        "initImage": "0d495ebcc5c44e7fb8d7b51af4a7562a.jpeg",
+        "initImageStrength": 0.4,
+        "defaultPrompt": "\u7cbe\u81f4\u7684\u5f69\u8272\u5934\u53d1\uff0c\u7edd\u4e16\u7f8e\u4eba",
+        "typeOrder": 105,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100015,
+        "name": "\u82b1\u6d77\u5c0f\u7cbe\u7075",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100015.png",
+        "modelId": 3,
+        "initImage": "b5bc4ac62fea49eba8bdb8bab95a8c33.jpeg",
+        "initImageStrength": 0.4,
+        "defaultPrompt": "\u7cbe\u81f4\u7684\u5f69\u8272\u5934\u53d1\uff0c\u7edd\u4e16\u7f8e\u4eba",
+        "typeOrder": 106,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100016,
+        "name": "\u5f69\u4e91\u4e4b\u5357",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100016.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "peerless beauty, Pink white long hair, braids, oil umbrella,",
+        "typeOrder": 107,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100017,
+        "name": "\u7c89\u8272\u4e91\u6d77",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100017.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u94f6\u767d\u8272\u957f\u53d1\uff0c\u8fab\u5b50\uff0c\u5b9d\u77f3\u822c\u7684\u91d1\u8272\u773c\u775b\uff0c\u5fe7\u90c1\u7684\uff0c\u6cb9\u4f1e\uff0c\u7cbe\u81f4\u534e\u4e3d\u7684\u670d\u9970",
+        "typeOrder": 108,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100018,
+        "name": "\u8d85\u7cbe\u7ec6\u5c11\u5973",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100018.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u7fbd\u6bdb\u9970\u54c1\uff0c\u767d\u53d1\uff0c\u84dd\u8272\u957f\u53d1",
+        "typeOrder": 109,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100019,
+        "name": "\u5b66\u9662\u98ce\u841d\u8389",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100019.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u84dd\u8272\u7684\u773c\u775b\uff0c\u4f18\u96c5\u7684\u776b\u6bdb\uff0c\u84dd\u8272\u7684\u957f\u53d1",
+        "typeOrder": 110,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100020,
+        "name": "\u6d1b\u4e3d\u5854\u7f8e\u5c11\u5973",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100020.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u5973\u5b69",
+        "typeOrder": 111,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100021,
+        "name": "\u65d7\u888d\u4f73\u4e3d",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100021.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u7edd\u4e16\u7f8e\u4eba\uff0c\u65d7\u888d",
+        "typeOrder": 112,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100022,
+        "name": "\u7ea2\u88d9\u5973\u738b",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100022.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u5973\u738b",
+        "typeOrder": 113,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100023,
+        "name": "\u6218\u6597\u5973\u6b66\u795e",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100023.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "1\u4e2a\u5973\u5b69",
+        "typeOrder": 114,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100024,
+        "name": "\u9ec4\u91d1\u9a91\u58eb",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100024.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "1\u4e2a\u5973\u5b69",
+        "typeOrder": 115,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100025,
+        "name": "\u6b27\u5f0f\u590d\u53e4(\u5973)",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100025.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u6709\u7740\u91d1\u8272\u957f\u53d1\u7684\u4f18\u96c5\u7f8e\u5973",
+        "typeOrder": 116,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100026,
+        "name": "\u6708\u5149\u4e4b\u4e0b",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100026.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "1\u4e2a\u5973\u5b69\uff0c\u767d\u53d1\uff0c\u84dd\u773c\u775b\uff0c\u9ad8\u9a6c\u5c3e\u8fab\uff0c\u6597\u7bf7",
+        "typeOrder": 117,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100027,
+        "name": "\u6b63\u592a",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100027.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u9ed1\u5934\u53d1\uff0c\u68d5\u8272\u7684\u5927\u773c\u775b\u548c\u77b3\u5b54\uff0c\u5c0f\u7537\u5b69\uff0c\u7a7f\u7740\u6821\u670d",
+        "typeOrder": 100,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 6,
+                "name": "\u4e8c\u6b21\u5143\u7537\u751f",
+                "nameEn": "",
+                "orderNumber": 4
+            }
+        ]
+    },
+    {
+        "id": 100028,
+        "name": "\u673a\u7532\u5c11\u5e74",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100028.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u7537\u5b69\uff0c\u68d5\u8272\u5934\u53d1\uff0c\u68d5\u8272\u773c\u775b",
+        "typeOrder": 101,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 6,
+                "name": "\u4e8c\u6b21\u5143\u7537\u751f",
+                "nameEn": "",
+                "orderNumber": 4
+            }
+        ]
+    },
+    {
+        "id": 100029,
+        "name": "\u7cbe\u81f4\u5e05\u54e5",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100029.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u82f1\u4fca\u7684\u7537\u751f",
+        "typeOrder": 103,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 6,
+                "name": "\u4e8c\u6b21\u5143\u7537\u751f",
+                "nameEn": "",
+                "orderNumber": 4
+            }
+        ]
+    },
+    {
+        "id": 100030,
+        "name": "\u6218\u672f\u6307\u6325\u5b98",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100030.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u5168\u8eab\u50cf\uff0c\u96ea\u767d\u7684\u5934\u53d1\uff0c\u7070\u8272\u7684\u773c\u775b\uff0c\u957f\u957f\u7684\u5934\u53d1\uff0c\u5927\u5927\u7684\u6ce2\u6d6a\uff0c\u6e29\u67d4\u7684\u5fae\u7b11",
+        "typeOrder": 104,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 6,
+                "name": "\u4e8c\u6b21\u5143\u7537\u751f",
+                "nameEn": "",
+                "orderNumber": 4
+            }
+        ]
+    },
+    {
+        "id": 100031,
+        "name": "\u53e4\u98ce\u5200\u5ba2",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100031.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u5e74\u8f7b\u5c11\u5e74\uff0c\u4e94\u5b98\u4fca\u7f8e\uff0c\u9ed1\u8272\u957f\u53d1\uff0c\u5934\u53d1\u9ad8\u9a6c\u5c3e\uff0c\u6709\u7740\u7d2b\u8272\u773c\u775b\uff0c\u7a7f\u7740\u53e4\u88c5\u9ed1\u8863\uff0c\u624b\u6301\u957f\u5200,\u767d\u76ae\u80a4\uff0c\u6234\u7740\u6d41\u82cf\u8033\u73af\uff0c",
+        "typeOrder": 105,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 6,
+                "name": "\u4e8c\u6b21\u5143\u7537\u751f",
+                "nameEn": "",
+                "orderNumber": 4
+            }
+        ]
+    },
+    {
+        "id": 100032,
+        "name": "\u6b27\u5f0f\u590d\u53e4(\u7537)",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100032.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u7537\u751f",
+        "typeOrder": 106,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 6,
+                "name": "\u4e8c\u6b21\u5143\u7537\u751f",
+                "nameEn": "",
+                "orderNumber": 4
+            }
+        ]
+    },
+    {
+        "id": 100033,
+        "name": "\u72d0\u4ed9",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100033.png",
+        "modelId": 2,
+        "initImage": "44c8527c1d9f406e96579f28603389b3.png",
+        "initImageStrength": 0.3,
+        "defaultPrompt": "\u4e00\u4e2a\u5973\u5b69\uff0c\u7ea2\u8272\u4e5d\u5c3e\u72d0\u5996\uff0c(\u72d0\u8033)\uff0c\u6c34\u73e0\uff0c\u4e5d\u5c3e\u72d0\u5996",
+        "typeOrder": 102,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 7,
+                "name": "\u5947\u5e7b\u4e4b\u65c5",
+                "nameEn": "",
+                "orderNumber": 5
+            }
+        ]
+    },
+    {
+        "id": 100034,
+        "name": "\u517d\u8033\u840c\u59b9",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100034.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u91d1\u53d1\u9ed1\u773c\u775b\u7684\u5973\u5b69",
+        "typeOrder": 100,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 7,
+                "name": "\u5947\u5e7b\u4e4b\u65c5",
+                "nameEn": "",
+                "orderNumber": 5
+            }
+        ]
+    },
+    {
+        "id": 100035,
+        "name": "\u798f\u745e",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100035.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u7537\u5b69",
+        "typeOrder": 101,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 7,
+                "name": "\u5947\u5e7b\u4e4b\u65c5",
+                "nameEn": "",
+                "orderNumber": 5
+            }
+        ]
+    },
+    {
+        "id": 100036,
+        "name": "\u673a\u68b0\u5c11\u5973",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100036.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a18\u5c81\u7684\u5973\u5b69",
+        "typeOrder": 100,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 8,
+                "name": "\u672a\u6765\u79d1\u6280",
+                "nameEn": "",
+                "orderNumber": 6
+            }
+        ]
+    },
+    {
+        "id": 100037,
+        "name": "\u8d5b\u535a\u5c11\u5973",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100037.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u5973\u5b69",
+        "typeOrder": 101,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 8,
+                "name": "\u672a\u6765\u79d1\u6280",
+                "nameEn": "",
+                "orderNumber": 6
+            }
+        ]
+    },
+    {
+        "id": 100038,
+        "name": "\u8d5b\u535a\u5929\u4f7f",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100038.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u5973\u5b69",
+        "typeOrder": 102,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 8,
+                "name": "\u672a\u6765\u79d1\u6280",
+                "nameEn": "",
+                "orderNumber": 6
+            }
+        ]
+    },
+    {
+        "id": 100039,
+        "name": "\u8d5b\u535a\u8857\u533a",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100039.png",
+        "modelId": 0,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u6761\u8857\u9053",
+        "typeOrder": 103,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            }
+        ],
+        "originAmount": 0.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 8,
+                "name": "\u672a\u6765\u79d1\u6280",
+                "nameEn": "",
+                "orderNumber": 6
+            }
+        ]
+    },
+    {
+        "id": 100040,
+        "name": "\u672a\u6765\u5973\u6218\u58eb",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100040.png",
+        "modelId": 3,
+        "initImage": "a6d96dff744b4656a2a3b13a93d35c41.jpeg",
+        "initImageStrength": 0.35,
+        "defaultPrompt": "\u7a7f\u7740\u672a\u6765\u79d1\u6280\u670d\u88c5\uff0c\u5e26\u7740\u8033\u673a\u6216\u8033\u5957\uff0c\u5b8c\u6574\u7684\u5973\u5b69\u8096\u50cf",
+        "typeOrder": 104,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 8,
+                "name": "\u672a\u6765\u79d1\u6280",
+                "nameEn": "",
+                "orderNumber": 6
+            }
+        ]
+    },
+    {
+        "id": 100041,
+        "name": "\u91cf\u5b50",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100041.png",
+        "modelId": 0,
+        "initImage": "7f1422fdff3c4b028422c8b3c4e53261.jpeg",
+        "initImageStrength": 0.1,
+        "defaultPrompt": "\u91cf\u5b50\uff0c\u66f2\u7387\uff0c\u574d\u7f29\uff0c\u7ef4\u5ea6\uff0c\u795e\u7ecf\u7f51\u7edc\uff0c\u865a\u7a7a",
+        "typeOrder": 105,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 0.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 8,
+                "name": "\u672a\u6765\u79d1\u6280",
+                "nameEn": "",
+                "orderNumber": 6
+            }
+        ]
+    },
+    {
+        "id": 100042,
+        "name": "\u539f\u795e\u6e29\u8fea",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100042.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u7537\u5b69",
+        "typeOrder": 100,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 12,
+                "name": "\u6e38\u620f\u7c7b",
+                "nameEn": "",
+                "orderNumber": 7
+            }
+        ]
+    },
+    {
+        "id": 100043,
+        "name": "\u539f\u795e\u516b\u91cd\u795e\u5b50",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100043.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u5973\u5b69",
+        "typeOrder": 101,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 12,
+                "name": "\u6e38\u620f\u7c7b",
+                "nameEn": "",
+                "orderNumber": 7
+            }
+        ]
+    },
+    {
+        "id": 100044,
+        "name": "\u539f\u795e\u7eb3\u897f\u59b2",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100044.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u5973\u5b69\uff0c\u7eb3\u897f\u59b2",
+        "typeOrder": 102,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 12,
+                "name": "\u6e38\u620f\u7c7b",
+                "nameEn": "",
+                "orderNumber": 7
+            }
+        ]
+    },
+    {
+        "id": 100045,
+        "name": "\u6c34\u5f69\u8096\u50cf",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100045.png",
+        "modelId": 0,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u7537\u6027\u8096\u50cf",
+        "typeOrder": 100,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            }
+        ],
+        "originAmount": 0.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 9,
+                "name": "\u7ed8\u753b\u7c7b",
+                "nameEn": "",
+                "orderNumber": 8
+            }
+        ]
+    },
+    {
+        "id": 100046,
+        "name": "\u6cb9\u753b\u9759\u7269",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100046.png",
+        "modelId": 6,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u684c\u5b50\u4e0a\u653e\u7740\u4e00\u5806\u6a58\u5b50\u3001\u6a58\u5b50\u3001\u8461\u8404\u3001\u8354\u679d\u3001\u68a8\u3001\u82f9\u679c\u3001\u4e24\u4e2a\u73bb\u7483\u676f",
+        "typeOrder": 101,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 9,
+                "name": "\u7ed8\u753b\u7c7b",
+                "nameEn": "",
+                "orderNumber": 8
+            }
+        ]
+    },
+    {
+        "id": 100047,
+        "name": "\u5370\u8c61\u6d3e\u98ce\u666f",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100047.png",
+        "modelId": 6,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u5ea7\u57ce\u5e02\uff0c\u6e2f\u53e3\u7684\u8239\u53ea\uff0c\u9ece\u660e\uff0c\u5927\u96fe",
+        "typeOrder": 102,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 9,
+                "name": "\u7ed8\u753b\u7c7b",
+                "nameEn": "",
+                "orderNumber": 8
+            }
+        ]
+    },
+    {
+        "id": 100048,
+        "name": "\u5e7b\u60f3\u4e4b\u5730",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100048.png",
+        "modelId": 6,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u706b\uff0c\u8611\u83c7\uff0c\u5927\u7684\u6bdb\u8338\u8338\u7684\u52a8\u7269\uff0c\u5ce1\u8c37",
+        "typeOrder": 103,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 9,
+                "name": "\u7ed8\u753b\u7c7b",
+                "nameEn": "",
+                "orderNumber": 8
+            }
+        ]
+    },
+    {
+        "id": 100049,
+        "name": "\u6cb3\u6d41\u6751\u5e84",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100049.png",
+        "modelId": 0,
+        "initImage": "da3211ac26c44b28ae57df1c1e86ea26.jpeg",
+        "initImageStrength": 0.2,
+        "defaultPrompt": "\u5e26\u6709\u6cb3\u6d41\u3001\u5c0f\u7011\u5e03\u3001\u70df\u56f1\u3001\u6559\u5802\u3001\u9762\u5305\u5e97\u7684\u5c0f\u6751\u5e84",
+        "typeOrder": 104,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 0.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 9,
+                "name": "\u7ed8\u753b\u7c7b",
+                "nameEn": "",
+                "orderNumber": 8
+            }
+        ]
+    },
+    {
+        "id": 100050,
+        "name": "\u840c\u5ba0",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100050.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u53ea\u6234\u7740\u738b\u51a0\u7684\u53ef\u7231\u7684\u767d\u8272\u5c0f\u72d7",
+        "typeOrder": 104,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 7,
+                "name": "\u5947\u5e7b\u4e4b\u65c5",
+                "nameEn": "",
+                "orderNumber": 5
+            }
+        ]
+    },
+    {
+        "id": 100051,
+        "name": "\u68a6\u6e38\u4ed9\u5883",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100051.png",
+        "modelId": 6,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u53ef\u7231\u7684\u5154\u5b50\u7a7f\u7740\u53e4\u5178\u7684\u6b27\u6d32\u5bab\u5ef7\u670d\u88c5",
+        "typeOrder": 103,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 7,
+                "name": "\u5947\u5e7b\u4e4b\u65c5",
+                "nameEn": "",
+                "orderNumber": 5
+            }
+        ]
+    },
+    {
+        "id": 100052,
+        "name": "\u7ae5\u8bdd\u5c0f\u5c4b",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100052.png",
+        "modelId": 0,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u51b0\u96ea\u7ae5\u8bdd\u5c4b",
+        "typeOrder": 106,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            }
+        ],
+        "originAmount": 0.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 7,
+                "name": "\u5947\u5e7b\u4e4b\u65c5",
+                "nameEn": "",
+                "orderNumber": 5
+            }
+        ]
+    },
+    {
+        "id": 100053,
+        "name": "\u5361\u901a\u9a91\u58eb",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100053.png",
+        "modelId": 0,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u82f1\u4fca\u7684\u7537\u5b69",
+        "typeOrder": 105,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            }
+        ],
+        "originAmount": 0.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 7,
+                "name": "\u5947\u5e7b\u4e4b\u65c5",
+                "nameEn": "",
+                "orderNumber": 5
+            }
+        ]
+    },
+    {
+        "id": 100054,
+        "name": "\u6c34\u5f69\u8bbe\u8ba1\u6548\u679c\u56fe",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100054.png",
+        "modelId": 6,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u88ab\u6811\u6728\u73af\u7ed5\u7684\u4e61\u95f4\u522b\u5885",
+        "typeOrder": 100,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 13,
+                "name": "\u5efa\u7b51\u7c7b",
+                "nameEn": "",
+                "orderNumber": 12
+            }
+        ]
+    },
+    {
+        "id": 100055,
+        "name": "\u73b0\u4ee3\u73bb\u7483\u623f",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100055.png",
+        "modelId": 7,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u5ea7\u5e26\u6709\u5ead\u9662\u7684\u672a\u6765\u5efa\u7b51\u7684\u7167\u7247\uff0c\u73bb\u7483\uff0c\u94a2\u7ed3\u6784\uff0c\u65e5\u843d",
+        "typeOrder": 101,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 13,
+                "name": "\u5efa\u7b51\u7c7b",
+                "nameEn": "",
+                "orderNumber": 12
+            }
+        ]
+    },
+    {
+        "id": 100056,
+        "name": "\u65e5\u5f0f\u4e61\u6751",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100056.png",
+        "modelId": 7,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u6240\u623f\u5b50",
+        "typeOrder": 102,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 13,
+                "name": "\u5efa\u7b51\u7c7b",
+                "nameEn": "",
+                "orderNumber": 12
+            }
+        ]
+    },
+    {
+        "id": 100057,
+        "name": "\u53e4\u5821",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100057.png",
+        "modelId": 7,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u88ab\u7eff\u8272\u690d\u7269\u5305\u56f4\u7684\u53e4\u82f1\u56fd\u57ce\u5821\uff0c\u591c\u665a\uff0c\u706f\u5149",
+        "typeOrder": 103,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 13,
+                "name": "\u5efa\u7b51\u7c7b",
+                "nameEn": "",
+                "orderNumber": 12
+            }
+        ]
+    },
+    {
+        "id": 100058,
+        "name": "\u591a\u5f69\u57ce\u5e02",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100058.png",
+        "modelId": 7,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u534e\u4e3d\u7684\u670b\u514b\u8857\u9053\uff0c\u9ad8\u5927\u7684\u516c\u5bd3\u697c",
+        "typeOrder": 104,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 13,
+                "name": "\u5efa\u7b51\u7c7b",
+                "nameEn": "",
+                "orderNumber": 12
+            }
+        ]
+    },
+    {
+        "id": 100059,
+        "name": "\u4f11\u95f2\u7c7b\u6e38\u620ficon",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100059.png",
+        "modelId": 5,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u9576\u6709\u94bb\u77f3\u7684\u7687\u51a0",
+        "typeOrder": 103,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 12,
+                "name": "\u6e38\u620f\u7c7b",
+                "nameEn": "",
+                "orderNumber": 7
+            }
+        ]
+    },
+    {
+        "id": 100060,
+        "name": "\u5361\u901a\u7c7b\u6e38\u620ficon",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100060.png",
+        "modelId": 5,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u628a\u65a7\u5b50",
+        "typeOrder": 104,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 12,
+                "name": "\u6e38\u620f\u7c7b",
+                "nameEn": "",
+                "orderNumber": 7
+            }
+        ]
+    },
+    {
+        "id": 100061,
+        "name": "\u5199\u5b9e\u7c7b\u6e38\u620ficon",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100061.png",
+        "modelId": 5,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u628a\u505a\u5de5\u7cbe\u81f4\uff0c\u9576\u5d4c\u5b9d\u77f3\u7684\u5251",
+        "typeOrder": 105,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 12,
+                "name": "\u6e38\u620f\u7c7b",
+                "nameEn": "",
+                "orderNumber": 7
+            }
+        ]
+    },
+    {
+        "id": 100062,
+        "name": "\u6241\u5e73\u98ce\u63d2\u753b\u6a21\u578b",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100062.png",
+        "modelId": 9,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u5973\u5b69\u62ff\u7740\u4e00\u6735\u9ec4\u82b1\uff0c\u6ca1\u6709\u80cc\u666f",
+        "typeOrder": 20,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100063,
+        "name": "\u51ac\u5b63\u5ba4\u5916",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100063.png",
+        "modelId": 9,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u7a7f\u7740#FFB90F\u5916\u5957\u3001\u56f4\u5dfe\u7684\u7537\u4eba",
+        "typeOrder": 100,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 14,
+                "name": "\u7b80\u7ea6\u63d2\u753b",
+                "nameEn": "",
+                "orderNumber": 9
+            }
+        ]
+    },
+    {
+        "id": 100064,
+        "name": "\u591a\u5f69\u98ce\u666f",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100064.png",
+        "modelId": 9,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u9ec4\u8272\u548c\u7eff\u8272\u5411\u65e5\u8475\u7684\u6d77\u6d0b",
+        "typeOrder": 101,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 14,
+                "name": "\u7b80\u7ea6\u63d2\u753b",
+                "nameEn": "",
+                "orderNumber": 9
+            }
+        ]
+    },
+    {
+        "id": 100065,
+        "name": "\u529e\u516c\u573a\u666f",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100065.png",
+        "modelId": 9,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u5973\u5b69, #bf9fff",
+        "typeOrder": 102,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 14,
+                "name": "\u7b80\u7ea6\u63d2\u753b",
+                "nameEn": "",
+                "orderNumber": 9
+            }
+        ]
+    },
+    {
+        "id": 100066,
+        "name": "\u5531\u6b4c\u5973\u5b69",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100066.png",
+        "modelId": 9,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u5973\u5b69",
+        "typeOrder": 103,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 14,
+                "name": "\u7b80\u7ea6\u63d2\u753b",
+                "nameEn": "",
+                "orderNumber": 9
+            }
+        ]
+    },
+    {
+        "id": 100067,
+        "name": "\u5929\u4f7f",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100067.png",
+        "modelId": 6,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u5973\u5b69",
+        "typeOrder": 100,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 2,
+                "name": "\u6444\u5f71\u7c7b",
+                "nameEn": "",
+                "orderNumber": 11
+            }
+        ]
+    },
+    {
+        "id": 100068,
+        "name": "\u6ce2\u6d9b\u6c79\u6d8c",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100068.png",
+        "modelId": 6,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u6d77\u6d6a\uff0c \u65e5\u843d",
+        "typeOrder": 101,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 2,
+                "name": "\u6444\u5f71\u7c7b",
+                "nameEn": "",
+                "orderNumber": 11
+            }
+        ]
+    },
+    {
+        "id": 100069,
+        "name": "\u6d77\u8fb9\u591c\u665a",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100069.png",
+        "modelId": 6,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u591c\u665a\u7684\u5929\u7a7a\uff0c\u5145\u6ee1\u4e86\u4e94\u989c\u516d\u8272\u7684\u6d77\u6ee9\u3001\u91d1\u8272\u7684\u5ca9\u77f3\u3001\u706f\u5149\u3001\u8367\u5149\u6d77\u6d0b\u3001\u6708\u5149\u4e0b\u6d77\u9762\u4e0a\u95ea\u70c1\u7684\u661f\u661f\u3001\u661f\u5149\u70b9\u70b9",
+        "typeOrder": 102,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 2,
+                "name": "\u6444\u5f71\u7c7b",
+                "nameEn": "",
+                "orderNumber": 11
+            }
+        ]
+    },
+    {
+        "id": 100070,
+        "name": "\u5199\u5b9eemoji",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100070.png",
+        "modelId": 10,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u9ec4\u8272\u7684\u8138\uff0c\u5706\u5706\u7684\u773c\u775b\uff0c\u5fae\u7b11\uff0c\u5feb\u4e50\uff0c\u6ca1\u6709\u80cc\u666f",
+        "typeOrder": 21,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100071,
+        "name": "\u6241\u5e73emoji",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100071.png",
+        "modelId": 11,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u9ec4\u8272\u7684\u8138\uff0c\u5706\u5706\u7684\u773c\u775b\uff0c\u5fae\u7b11\uff0c\u5feb\u4e50\uff0c\u6ca1\u6709\u80cc\u666f",
+        "typeOrder": 22,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100072,
+        "name": "\u8fea\u58eb\u5c3c\u63d2\u753b\u98ce\u683c",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100072.png",
+        "modelId": 12,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u7537\u4eba\u6b63\u5728\u6b22\u5feb\u5730\u8df3\u821e\uff0c\u7bdd\u706b\u665a\u4f1a\uff0c\u6e56\u8fb9",
+        "typeOrder": 16,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100073,
+        "name": "\u6982\u5ff5\u573a\u666f",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100073.png",
+        "modelId": 12,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u8ff7\u5e7b\u7684\u4e16\u754c\uff0c\u53e4\u8001\u98ce\u683c\u7684\u5bfa\u5e99\uff0c\u5e26\u6709\u8bb8\u591a\u53d1\u5149\u7684\u706f\u7b3c\u548c\u5c42\u6b21\uff0c\u5177\u6709wlop\u3001\u63d2\u56fe\u3001\u53f2\u8bd7\u3001\u5e7b\u60f3\u3001\u8d85\u8be6\u7ec6\u3001\u5e73\u6ed1\u3001\u4e0d\u771f\u5b9e\u7684\u5f15\u64ce\u3001\u6e05\u6670\u7684\u7126\u70b9\u3001\u5149\u7ebf\u8ffd\u8e2a\u7684\u98ce\u683c",
+        "typeOrder": 17,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100074,
+        "name": "\u6982\u5ff5\u4eba\u7269",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100074.png",
+        "modelId": 12,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u82f1\u4fca\u7684\u7537\u4eba\uff0c\u6709\u7740\u4f18\u96c5\u7684\u91d1\u53d1\uff0c\u7a7f\u7740\u6597\u7bf7\uff0c\u624b\u6301\u94f6\u5251\uff0c\u53cc\u624b\u975e\u5e38\u7ec6\u81f4",
+        "typeOrder": 18,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100075,
+        "name": "\u53cc\u57ce\u4e4b\u6218\u98ce\u683c",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100075.png",
+        "modelId": 13,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4e2a\u91d1\u53d1\u5377\u66f2\u7684\u7537\u5b69\uff0c\u8eab\u540e\u662f\u6ce2\u6d9b\u6c79\u6d8c\u7684\u5927\u6d77",
+        "typeOrder": 19,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100076,
+        "name": "\u62fc\u5e03\u827a\u672f\u6574\u4f53",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100076.png",
+        "modelId": 15,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u6d45\u84dd\u8272\u80cc\u666f\u4e0a\u7684\u767d\u4e91",
+        "typeOrder": 23,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100077,
+        "name": "\u62fc\u5e03\u827a\u672f\u5355\u4f53",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100077.png",
+        "modelId": 14,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u767d\u5e95\u7eff\u53f6",
+        "typeOrder": 24,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100078,
+        "name": "\u98df\u7269\u7eaf\u6a21\u578b",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100078.png",
+        "modelId": 16,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u6c49\u5821\u3001\u591a\u6c41\u3001\u5976\u916a",
+        "typeOrder": 27,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100079,
+        "name": "\u7f8e\u7532\u8bbe\u8ba1",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100079.png",
+        "modelId": 17,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u7c89\u8272\u548c\u9ec4\u8272\u82b1\u6735\uff0c\u6c34\u5f69",
+        "typeOrder": 28,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 0,
+                "name": "\u7eaf\u6a21\u578b",
+                "nameEn": "",
+                "orderNumber": 1
+            }
+        ]
+    },
+    {
+        "id": 100080,
+        "name": "\u534e\u4e3d\u5854\u7f57\u724c",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100080.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u4e00\u4f4d\u4f18\u96c5\u7684\u7f8e\u5973",
+        "typeOrder": 118,
+        "sizes": [
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 4,
+                "name": "\u4e8c\u6b21\u5143\u5973\u751f",
+                "nameEn": "",
+                "orderNumber": 3
+            }
+        ]
+    },
+    {
+        "id": 100081,
+        "name": "\u7f8e\u5473\u4e3b\u83dc",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100081.png",
+        "modelId": 16,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u725b\u6392",
+        "typeOrder": 103,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 2,
+                "name": "\u6444\u5f71\u7c7b",
+                "nameEn": "",
+                "orderNumber": 11
+            }
+        ]
+    },
+    {
+        "id": 100082,
+        "name": "\u751c\u54c1\u70d8\u7119",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100082.png",
+        "modelId": 16,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u679c\u9171\u3001\u7eb8\u676f\u86cb\u7cd5\u3001\u5976\u6cb9",
+        "typeOrder": 105,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 2,
+                "name": "\u6444\u5f71\u7c7b",
+                "nameEn": "",
+                "orderNumber": 11
+            }
+        ]
+    },
+    {
+        "id": 100083,
+        "name": "\u4e30\u5bcc\u996e\u54c1",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100083.png",
+        "modelId": 16,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u7c89\u8272\u51b0\u6c99\u3001\u725b\u5976\u3001\u8349\u8393",
+        "typeOrder": 106,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 2,
+                "name": "\u6444\u5f71\u7c7b",
+                "nameEn": "",
+                "orderNumber": 11
+            }
+        ]
+    },
+    {
+        "id": 100084,
+        "name": "\u5065\u5eb7\u6c99\u62c9",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100084.png",
+        "modelId": 16,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u8292\u679c\u3001\u5927\u867e\u3001\u85dc\u9ea6",
+        "typeOrder": 104,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 2,
+                "name": "\u6444\u5f71\u7c7b",
+                "nameEn": "",
+                "orderNumber": 11
+            }
+        ]
+    },
+    {
+        "id": 100085,
+        "name": "\u6761\u7eb9\u56fe\u6848",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100085.png",
+        "modelId": 15,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u84dd\u8272\u548c\u7d2b\u8272\uff0c\u767d\u8272\u80cc\u666f",
+        "typeOrder": 100,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 15,
+                "name": "\u7eb9\u7406",
+                "nameEn": "",
+                "orderNumber": 13
+            }
+        ]
+    },
+    {
+        "id": 100086,
+        "name": "\u788e\u82b1\u56fe\u6848",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100086.png",
+        "modelId": 15,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u9ec4\u8272\u548c\u767d\u8272",
+        "typeOrder": 101,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 15,
+                "name": "\u7eb9\u7406",
+                "nameEn": "",
+                "orderNumber": 13
+            }
+        ]
+    },
+    {
+        "id": 100087,
+        "name": "\u661f\u578b\u56fe\u6848",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100087.png",
+        "modelId": 15,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u9ec4\u8272",
+        "typeOrder": 102,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 15,
+                "name": "\u7eb9\u7406",
+                "nameEn": "",
+                "orderNumber": 13
+            }
+        ]
+    },
+    {
+        "id": 100088,
+        "name": "\u732b\u54aa\u56fe\u6848",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100088.png",
+        "modelId": 14,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u7ea2\u8272\u80cc\u666f\uff0c\u9ed1\u8272",
+        "typeOrder": 103,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 15,
+                "name": "\u7eb9\u7406",
+                "nameEn": "",
+                "orderNumber": 13
+            }
+        ]
+    },
+    {
+        "id": 100089,
+        "name": "\u51e0\u4f55\u56fe\u6848",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100089.png",
+        "modelId": 14,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u8fde\u7eed\u53cc\u8272\u73af",
+        "typeOrder": 104,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 15,
+                "name": "\u7eb9\u7406",
+                "nameEn": "",
+                "orderNumber": 13
+            }
+        ]
+    },
+    {
+        "id": 100090,
+        "name": "\u857e\u4e1d\u56fe\u6848",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100090.png",
+        "modelId": 14,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u767d\u8272\u548c\u7c89\u8272\uff0c\u5341\u5b57\u4ea4\u53c9",
+        "typeOrder": 105,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 15,
+                "name": "\u7eb9\u7406",
+                "nameEn": "",
+                "orderNumber": 13
+            }
+        ]
+    },
+    {
+        "id": 100091,
+        "name": "\u955c\u9762\u956d\u5c04",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100091.png",
+        "modelId": 17,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u8d5b\u535a\u670b\u514b",
+        "typeOrder": 100,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 16,
+                "name": "\u7f8e\u7532\u7c7b",
+                "nameEn": "",
+                "orderNumber": 14
+            }
+        ]
+    },
+    {
+        "id": 100092,
+        "name": "\u88f8\u8272\u7eaf\u6b32",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100092.png",
+        "modelId": 17,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u94bb\u77f3\uff0c\u95ea\u8000",
+        "typeOrder": 101,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 16,
+                "name": "\u7f8e\u7532\u7c7b",
+                "nameEn": "",
+                "orderNumber": 14
+            }
+        ]
+    },
+    {
+        "id": 100093,
+        "name": "\u4e2d\u5f0f\u624b\u7ed8",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100093.png",
+        "modelId": 17,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u7af9\u5b50",
+        "typeOrder": 102,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 16,
+                "name": "\u7f8e\u7532\u7c7b",
+                "nameEn": "",
+                "orderNumber": 14
+            }
+        ]
+    },
+    {
+        "id": 100094,
+        "name": "y2k\u8fa3\u59b9",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100094.png",
+        "modelId": 17,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u5a74\u513f\u84dd\u5fc3\u5f62",
+        "typeOrder": 103,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 16,
+                "name": "\u7f8e\u7532\u7c7b",
+                "nameEn": "",
+                "orderNumber": 14
+            }
+        ]
+    },
+    {
+        "id": 100095,
+        "name": "\u6697\u9ed1\u5c0f\u4f17",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100095.png",
+        "modelId": 17,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u94f6\u8272\u5341\u5b57\u661f",
+        "typeOrder": 104,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 16,
+                "name": "\u7f8e\u7532\u7c7b",
+                "nameEn": "",
+                "orderNumber": 14
+            }
+        ]
+    },
+    {
+        "id": 100096,
+        "name": "\u5361\u901a\u751c\u59b9",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100096.png",
+        "modelId": 17,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u5c0f\u5154\u5b50\uff0c\u86cb\u7cd5\uff0c\u90c1\u91d1\u9999",
+        "typeOrder": 105,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 0.0,
+        "types": [
+            {
+                "id": 16,
+                "name": "\u7f8e\u7532\u7c7b",
+                "nameEn": "",
+                "orderNumber": 14
+            }
+        ]
+    },
+    {
+        "id": 100097,
+        "name": "\u5154\u5e74Q\u7248\u4eba\u7269",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100097.png",
+        "modelId": 3,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u5154\u5b50\u5973\u5b69",
+        "typeOrder": 100,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 2.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 17,
+                "name": "\u5154\u5e74\u65b0\u6625",
+                "nameEn": "",
+                "orderNumber": 2
+            }
+        ]
+    },
+    {
+        "id": 100098,
+        "name": "\u5154\u5e74\u63d2\u753b\u6d77\u62a5",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100098.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "\u6bdb\u8338\u8338\u7684\u5154\u5b50\u8bf4\u65b0\u5e74\u5feb\u4e50",
+        "typeOrder": 101,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 17,
+                "name": "\u5154\u5e74\u65b0\u6625",
+                "nameEn": "",
+                "orderNumber": 2
+            }
+        ]
+    },
+    {
+        "id": 100099,
+        "name": "\u5154\u5e74\u52a8\u6f2b\u4eba\u7269",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100099.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "1\u4e2a\u94f6\u53d1\u5973\u5b69\uff0c\u5355\u4eba\uff0c\u7ea2\u8272\u5934\u9970\uff0c\u767d\u8272\u65d7\u888d\uff0c\u8df3\u821e",
+        "typeOrder": 102,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 17,
+                "name": "\u5154\u5e74\u65b0\u6625",
+                "nameEn": "",
+                "orderNumber": 2
+            }
+        ]
+    },
+    {
+        "id": 100100,
+        "name": "\u5154\u5e74\u6241\u5e73\u6d77\u62a5",
+        "nameEn": "",
+        "cover": "https://oss-cdn-main.draft.art/aiDraw/template/cover/100100.png",
+        "modelId": 2,
+        "initImage": "",
+        "initImageStrength": 0.0,
+        "defaultPrompt": "1\u53ea\u5c0f\u5154\u5b50",
+        "typeOrder": 103,
+        "sizes": [
+            {
+                "id": 1,
+                "name": "1.1",
+                "width": 512,
+                "height": 512,
+                "proportion": "1.1"
+            },
+            {
+                "id": 2,
+                "name": "1:2",
+                "width": 512,
+                "height": 1024,
+                "proportion": "1:2"
+            },
+            {
+                "id": 3,
+                "name": "2:3",
+                "width": 512,
+                "height": 768,
+                "proportion": "2:3"
+            },
+            {
+                "id": 4,
+                "name": "3:2",
+                "width": 768,
+                "height": 512,
+                "proportion": "3:2"
+            },
+            {
+                "id": 5,
+                "name": "3:4",
+                "width": 576,
+                "height": 768,
+                "proportion": "3:4"
+            },
+            {
+                "id": 6,
+                "name": "4:3",
+                "width": 768,
+                "height": 576,
+                "proportion": "4:3"
+            },
+            {
+                "id": 7,
+                "name": "9:16",
+                "width": 576,
+                "height": 1024,
+                "proportion": "9:16"
+            },
+            {
+                "id": 8,
+                "name": "16:9",
+                "width": 1024,
+                "height": 576,
+                "proportion": "16:9"
+            }
+        ],
+        "originAmount": 1.0,
+        "amount": 1.0,
+        "types": [
+            {
+                "id": 17,
+                "name": "\u5154\u5e74\u65b0\u6625",
+                "nameEn": "",
+                "orderNumber": 2
+            }
+        ]
+    }
+]
