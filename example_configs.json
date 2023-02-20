@@ -1,0 +1,13 @@
+{
+    "qq":123,
+    "id":"your qq nick name",
+    "base_url":"http://127.0.0.1:5700",
+    "address": "0.0.0.0:5701",
+    "server_group":
+                  {
+                    "your group id":12345
+                  },
+    "server_private":{
+                     "your friend id":12345
+                    }
+}
