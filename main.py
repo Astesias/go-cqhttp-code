@@ -42,18 +42,18 @@ def sender3():
         sent_msg(t)
         TASK.task_done()
 
-def say(pid=657696854,is_group=True):
+def say(pid=configs.server_group["文件传输助手"],is_group=True):
     test_json={\
      'post_type': 'message',
      'message_type': 'group',
      'self_id': configs.qq,
      'font': 0,
      'message': '',
-     'group_id': 657696854,
+     'group_id': configs.server_group["文件传输助手"],
      'sender': {'age': 0, 
                 'nickname': '测试用例',
                 'sex': 'unknown',
-                'user_id': '2264168148'},
+                'user_id': configs.qq},
      'user_id': 2854196310,
      'message_id': 1618317904
      }
@@ -141,7 +141,8 @@ if __name__ == '__main__':
     global tasks
     tasks=[main_,say_,timer_,go_cqhttp_,sender1_,sender2_,sender3_]
     if not len(sys.argv)>=2:
-        tasks.remove(go_cqhttp_)
+        if sys.argv[1]=='-startCQ':
+            tasks.remove(go_cqhttp_)
         pass
     tasks.remove(timer_)
     # tasks.remove(say_)
@@ -171,15 +172,20 @@ if __name__ == '__main__':
 
 #   ping                                              (Ping)              # ping服务器所有模块 
 
+#   help                                              (help)              # 获取帮助信息
+
 '''
-@ysl +
-    我是谁我从哪里来我要去哪里
-    pie kw=原神 pg=2 i=1
+Example
+@bot/@ (in private chat) +
+    chatgpt who jb you
+    pie kw=关键词 pg=2 i=1
     pic pid=114514
     pic date230101 mode male
     aidraw  kw白发，长发，红瞳 ukw手部描写 ek0.3 sz ori [image]
     baidraw kw白发，长发，红瞳 sz ek0.3 ori [image]
     daidraw kw白发，长发，红瞳
+    roll {n}d{m}
+    help {module name}
     
     ping
 '''
@@ -192,14 +198,7 @@ if __name__ == '__main__':
     # seach author  x
     # pix pn show all  x
     # random sent daily  x
-    # top sent daily   x
-    # restart   x
     
-# 974996372   b
-# 657696854   s
-# 1206094636  ych
-
-# [CQ:at,qq=2264168148]aidraw斑驳的阳光,美丽的少女,秋千,蓝宝石般的眼珠,纱裙,露肩,浅白色露肩长裙,幽静,萝莉,罗马柱,白花,兰花,长筒靴,复古色,丁达尔效应,神圣的教堂,红色瞳孔,金黄色长发,小巧的脸蛋,丰满的身材
 
 
 

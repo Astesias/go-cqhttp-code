@@ -19,7 +19,7 @@ def get_db_available():
     r=easy_request(url,method='GET',
                         header=truepath(__file__,'draft_wallet.json'))
     amount=r['data']['amount']
-    return int(amount)-18
+    return int(amount)
 
 def get_template(ix=0,alltp=False):
     template=json.load(open(truepath(__file__,'./draft_template_data.json')))
