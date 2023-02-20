@@ -1,5 +1,7 @@
 go-cqhttp-code
 ====
+基于go-cqhttp的qq机器人功能代码实现
+仅供参考
 
 >order_list: (选项后加空格等号或不加都可识别)
 
