@@ -17,7 +17,7 @@ class Fplog():
         self.close()
         
 class Configs:
-    def __init__(self,file='configs-2.json'):
+    def __init__(self,file='configs.json'):
         fp=open(file)
         js=fp.read()
         fp.close()

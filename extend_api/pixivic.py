@@ -92,7 +92,7 @@ def search_by_rank(mode='day',date='2022-08-11',pg=1,pz=5,
     # r=http.request('GET',base_url,headers=head)
     # response=r.data
     response=easy_request(base_url,header=truepath(__file__,head_json))
-    print(response)
+    # print(response)
     data=response['data']
     
     ori_urls=[]
