@@ -2,4 +2,4 @@ configs*.json
 *.xml
 log/
 __pycache__
-cache/*
+kw*.txt
