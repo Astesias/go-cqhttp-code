@@ -155,7 +155,6 @@ if __name__ == '__main__':
         t.join()
 
 
-
 # order_list (kw=|kw |kw)
 #   {question}                                        (chatGPT)           # 聊天机器人
 #   {发图}*n                                          (randomPic)         # 随机图片
@@ -204,7 +203,7 @@ Example
 
 
 
-
+# fix dai  ek avg  api ops
 
 
 
