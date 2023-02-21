@@ -1,6 +1,6 @@
+import os
 import time
 import demjson
-from pysl import newpath
 
 class Fplog():
     def __init__(self,filename):
@@ -24,8 +24,13 @@ class Configs:
         cfg=demjson.decode(js)
         for k,v in cfg.items():
             self.__setattr__(k, v)
-global configs
-configs=Configs()            
+            
+def newpath(path):
+    d=os.path.split(path)[0]
+    if os.path.exists(d):
+        pass
+    else:
+        os.mkdir(d)         
 
 class Timer():
     def __init__(self,sep=1):
@@ -38,10 +43,6 @@ class Timer():
         else:
             return False
 
-
-       
-def get_config(name):
-    return configs.__getattribute__(name)
         
 def getime():
     t=time.localtime()
@@ -64,5 +65,5 @@ def cmd(command):
     
 if __name__ == '__main__':
     
-    print([(i,get_config(i)) for i in dir(configs) if '__' not in i])
+    print(Configs().qq)
     

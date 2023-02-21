@@ -8,7 +8,9 @@ from api import send_msg
 from flask import Flask, request
 from flask_restful import Resource, Api
 from msg_filter import sent_msg,cleanCache
-from utils import Fplog,logprint,configs,cmd,Timer
+from utils import Fplog,logprint,cmd,Timer,Configs
+
+configs=Configs('configs.json')
 
 logger=Fplog('./log/main/log')
 def print(log,logger=logger,**kw):
