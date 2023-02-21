@@ -16,6 +16,7 @@ order_list: (选项后加空格等号或不加都可识别)
    baidraw {kw} ek(1-10)  sz (ori 2-6) [image]       (baidu_aidraw)<br><br>
    daidraw {kw} ek(0-1%1) sz(min-max) md [image]     (daidu_aidraw)      # draft ai作画<br>
                             md:(0-100 2,3,18,36,37,38,44[nxd])<br><br>
+   roll {n}d{m}                                      (roll)              # roll点<br> 
    ping                                              (Ping)              # ping服务器所有模块<br> 
    help                                              (help)              # 获取帮助信息<br>
 
