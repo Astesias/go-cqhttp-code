@@ -25,7 +25,7 @@ Examples:
 >@bot/@ (in private chat) +<br>
 >>
     chatgpt who jb you
-    pie kw=关键词 pg=2 i=1
+    pie kw=关键词 pg=2 ix=1
     pic pid=114514
     pic date230101 mode male
     aidraw  kw白发，长发，红瞳 ukw手部描写 ek0.3 sz ori [image]
