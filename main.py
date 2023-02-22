@@ -194,6 +194,7 @@ TODO
 bing
 usage config
 setup env
+cookie command
 draft search other
 fix dai  
 ek avg  

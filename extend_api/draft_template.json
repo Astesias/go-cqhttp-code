@@ -5,7 +5,7 @@
 "Connection": "keep-alive",
 "Content-Length": "24",
 "Content-Type": "application/json",
-"GRAPH-ORIGIN-T": "23384185265b4789877a830ee6ba7615",
+"GRAPH-ORIGIN-T": "d8879f2427444ff7892b311ab65e43a8",
 "Host": "api.draft.art",
 "Origin": "https://draft.art",
 "Referer": "https://draft.art/personal?id=1838860",

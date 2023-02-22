@@ -141,14 +141,9 @@ if __name__=='__main__':
     print(get_db_available())
     tp=get_template(18,alltp=True)
     
-    msg='daidraw kw=婚纱，露肩，红色瞳孔，白色长发，花束，长筒靴，白色手套  ek=0.1 sz=3 md0 [CQ:image,file=2904d060798636b051444917f63d4ae9.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/1767557815/572675295-3067516242-CA1EC2E5574584B472591BAE4B47E83E/0?term=3&amp;is_origin=0]'
+    msg='daidraw kw=婚纱，露肩，红色瞳孔，白色长发，花束，长筒靴，白色手套  ek=0.1 sz=3 md18 [CQ:image,file=2904d060798636b051444917f63d4ae9.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/2535044688/974996372-2524594324-AA43291E4ED68D454245A7A871E02AF1/0?term=3&amp;is_origin=0]'
     # print(bdraw_setting(msg))
-    # print(daidu_aidraw(msg))
-
-
-
-
-
+    print(daidu_aidraw(msg))
 
 
 

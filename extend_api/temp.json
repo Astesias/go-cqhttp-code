@@ -1,10 +1,12 @@
-accept: application/json, text/plain, */*
-accept-encoding: gzip, deflate, br
-accept-language: zh-CN,zh;q=0.9,et;q=0.8,ja;q=0.7,fr;q=0.6,en;q=0.5,es;q=0.4,ko;q=0.3,kn;q=0.2,nl;q=0.1,az;q=0.1,mr;q=0.1,la;q=0.1,ms;q=0.1,eo;q=0.1
-authorization: eyJhbGciOiJIUzUxMiJ9.eyJwZXJtaXNzaW9uTGV2ZWwiOjEsInJlZnJlc2hDb3VudCI6MiwiaXNDaGVja1Bob25lIjowLCJ1c2VySWQiOjE4MzEzNCwiaWF0IjoxNjc2OTEyNTgwLCJleHAiOjE2Nzc0MzA5ODB9.gr6z5fQ5yD-jcKGJ0hd1Zix8FyUEP1nE58O5XoxbwmIGY0C7NnWfiXstfOewwKqMtqWm4Z4tdiPgXtTxvTGI3g
-origin: https://pixivic.com
-referer: https://pixivic.com/illusts/105476185?VNK=444927b3
-sec-fetch-dest: empty
-sec-fetch-mode: cors
-sec-fetch-site: cross-site
-user-agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,et;q=0.8,ja;q=0.7,fr;q=0.6,en;q=0.5,es;q=0.4,ko;q=0.3,kn;q=0.2,nl;q=0.1,az;q=0.1,mr;q=0.1,la;q=0.1,ms;q=0.1,eo;q=0.1
+Connection: keep-alive
+GRAPH-ORIGIN-T: d8879f2427444ff7892b311ab65e43a8
+Host: pay.draft.art
+Origin: https://draft.art
+Referer: https://draft.art/wallet
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
