@@ -244,7 +244,7 @@ if __name__ == '__main__':
     #                      'https://o.acgpic.net/img-original/img/2020/11/13/01/32/47/85633671_p8.jpg'],
     #      ))
     
-    make_json('draft_wallet')
+    make_json('pixivel')
     
     
     

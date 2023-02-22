@@ -190,6 +190,7 @@ Example
 
 '''
 TODO
+pic bug
 
 usage config
 cookie command
