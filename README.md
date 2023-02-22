@@ -31,6 +31,7 @@ ix| int [1,] | 1 |页中作品序号(index)
 pn| int [1,] | 1 |作品中图片序号(pic num)
 date| date(YYMMDD) | now-2day |某日排行榜
 mode| enmu(`day`,`week`,`month`,`male`,`female`)|`male` |排行依据
+pz | int [1,10] | 5 | 展示top n
 allpn | bool | False | 展示所有pn,默认只展示作品第一张
 maxpn | int [1,10] | 5 | 一个最大展示数量(绑定allpn)
 ek| int [0,10] | 3 | 生成图片与给定图片相似度
