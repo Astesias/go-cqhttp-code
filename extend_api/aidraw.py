@@ -1,16 +1,15 @@
 import re
 import time
-from pysl import easy_request,re_args_get
 
 try:
-    from .utils_api import truepath
+    from .utils_api import truepath,easy_request,re_args_get
     from utils import Fplog,logprint
     path=truepath(__file__,'../log/extend_api/aidraw/log')
     logger=Fplog(path)
     def print(*log,logger=logger,**kw):
         logprint(*log,logger=logger,t=True,**kw)
 except:
-    from utils_api import truepath
+    from utils_api import truepath,easy_request,re_args_get
 
 def shape_choose_url(url):
     import numpy as np
@@ -41,13 +40,15 @@ def draw_setting(msg):
  
     d= {
         "inputText":('kw','str',''),
-        "imageFactors":('ek','float_2',0.3),
+        "imageFactors":('ek','int',0.3),
         "multiple":('ori','bool+',(2,4)),
         "imageSizeId":('sz','int',3),
         "reverseWords":('ukw','str',''),
         }
     r=re_args_get(msg,d)
     r["picurl"]=picurl
+    r["imageFactors"]/=10
+    assert 0<=r["imageFactors"]<=1
     if sz:
          r["imageSizeId"]=sz
     return r

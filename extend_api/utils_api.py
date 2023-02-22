@@ -1,8 +1,125 @@
+import re
 import os
 import time
 import json
 import random
-from pysl import easy_request
+
+def re_matchall(pattern,s):
+    r=[]
+    match=re.search(pattern,s)
+    while match:
+        r.append(match.group())
+        s=s[0:match.span()[0]]+s[match.span()[1]:]
+        match=re.search(pattern,s)
+    return r
+
+def re_args_get(msg,d,nolist=True):
+    # dict{'arg_name':('as_name','type_name',default,is_single)}
+    # types=['int','float_x','cnt','bool','str']
+    result_d={}
+    for i in list(d.items()):
+        arg_name=i[0]
+        as_name=i[1][0]
+        type_name=i[1][1]
+        default=i[1][2]
+        try:
+            is_single=i[1][3]
+        except:
+            is_single=True
+        assert nolist==is_single
+        
+        if type_name=='cnt':
+            match_=msg.count(as_name)
+            result_d[arg_name]=match_ if nolist else [match_]
+            continue
+        elif type_name=='bool':
+            match_=not default if msg.count(as_name) else default
+            result_d[arg_name]=match_ if nolist else [match_]
+            continue
+        elif type_name=='bool+':
+            match_=default[1] if msg.count(as_name) else default[0]
+            result_d[arg_name]=match_ if nolist else [match_]
+            continue
+        else:
+            matches=re_matchall(f'(?<!\w){as_name}(=| )?.+?( |$)',msg)
+            if len(matches)==0:
+                if type_name=='bool+':
+                    result_d[arg_name]=default[0] if nolist else [default[0]]
+                else:
+                    result_d[arg_name]=default if nolist else [default]
+                    
+            elif is_single and len(matches)>=2:
+                raise Exception(f'single err in arg {as_name}')
+            else:
+                arg_list=[]
+                for match in matches:
+                    msg=msg.replace(match,'')
+                    match_=match.replace(f'{as_name}=','').\
+                    replace(f'{as_name}','').replace(f'{as_name} ','')
+                    if type_name=='int':
+                        match_=int(match_)
+                    elif type_name=='str':
+                        match_=match_.strip(' ').strip('\n')
+                    elif type_name.count('float'):
+                        pcn=int(type_name[-1])
+                        match_=round(float(match_),pcn)      
+                    arg_list.append(match_)
+                result_d[arg_name]=arg_list[0] if nolist else arg_list
+    return result_d
+
+def easy_request(url,header=None,format_url_args=None,
+                 data=None,method='GET',driver=False,pic=False,form_data=None):
+    
+    from urllib.parse import quote
+    import requests
+    import json
+    from bs4 import BeautifulSoup as bs
+    
+    if format_url_args:
+        url=url.format(*list( map(quote,format_url_args) ))
+    if header and isinstance(header,str):
+        with open(header) as fp:
+            header=json.load(fp)
+    if data:
+        data=json.dumps(data)
+    
+    if not driver:
+        if pic:
+            return requests.request(method,url,
+                              headers=header,
+                              data=data,
+                              )
+        if form_data:
+            from requests_toolbelt import MultipartEncoder
+            custom_data=MultipartEncoder(fields=form_data[0],boundary=form_data[1])
+            if not header:
+                header={}
+            header['Content-Type']=custom_data.content_type
+            response=requests.post(url,
+                              headers=header,
+                              data=custom_data,
+                              ).content
+        else:
+            response=requests.request(method,url,
+                                  headers=header,
+                                  data=data,
+                                  ).content
+    else:
+        from selenium import webdriver
+        browser = webdriver.Chrome()
+        browser.get(url)
+        data = browser.page_source
+        browser.quit()
+        soup=bs(data,features="lxml")   
+        response=soup.find('body').text
+        return response
+    
+    try:
+        data=json.loads(response)
+        return data
+    except :
+        soup=bs(response,features='lxml')
+        return soup
 
 def truepath(file,*arg):
     return os.path.join(os.path.abspath(os.path.split(file)[0]),*arg)

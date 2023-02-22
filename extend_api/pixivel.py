@@ -2,17 +2,16 @@ import os
 import re
 import json
 from urllib.parse import quote
-from pysl import re_args_get,easy_request
 
 try:
-    from .utils_api import truepath,img_writer
+    from .utils_api import truepath,img_writer,re_args_get,easy_request
     from utils import Fplog,logprint
     path=truepath(__file__,'../log/extend_api/pixivel/log')
     logger=Fplog(path)
     def print(*log,logger=logger,**kw):
         logprint(*log,logger=logger,t=True,**kw)
 except:
-    from utils_api import truepath,img_writer
+    from utils_api import truepath,img_writer,re_args_get,easy_request
 
 def img_args(msg):
 

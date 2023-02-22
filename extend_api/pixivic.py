@@ -1,16 +1,15 @@
 import re
 from datetime import datetime,timedelta
-from pysl import re_args_get,easy_request
 
 try:
-    from .utils_api import truepath
+    from .utils_api import truepath,re_args_get,easy_request
     from utils import Fplog,logprint
     path=truepath(__file__,'../log/extend_api/pixivic/log')
     logger=Fplog(path)
     def print(*log,logger=logger,**kw):
         logprint(*log,logger=logger,t=True,**kw)
 except:
-    from utils_api import truepath
+    from utils_api import truepath,re_args_get,easy_request
 
 def flatten(l):
     r=[]

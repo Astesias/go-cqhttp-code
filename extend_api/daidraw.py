@@ -2,17 +2,16 @@ import re
 import cv2
 import time
 import json
-from pysl import easy_request,re_args_get
 
 try:
-    from .utils_api import truepath,img_writer
+    from .utils_api import truepath,img_writer,easy_request,re_args_get
     from utils import Fplog,logprint
     path=truepath(__file__,'../log/extend_api/daidraw/log')
     logger=Fplog(path)
     def print(*log,logger=logger,**kw):
         logprint(*log,logger=logger,t=True,**kw)
 except:
-    from utils_api import truepath,img_writer
+    from utils_api import truepath,img_writer,easy_request,re_args_get
 
 def get_db_available():
     url='https://pay.draft.art/api/wallet/get'
@@ -61,11 +60,12 @@ def bdraw_setting(msg):
     d= {
         "kw":('kw','str',''),
         "sz":('sz','int',0), 
-        "ek":('ek','float_1',0.3),
+        "ek":('ek','int',3),
         "md":('md','int',18),
         }
     r=re_args_get(msg,d)
-    
+    r['ek']/=10
+    assert 0<=r['ek']<=1
     
     md=r['md']
     md_detail=get_template(md)

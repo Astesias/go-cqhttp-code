@@ -1,4 +1,3 @@
-import sys
 import time
 import random
 import asyncio
@@ -191,17 +190,17 @@ Example
 
 '''
 TODO
-bing
-usage config
-setup env
-cookie command
-draft search other
-fix dai  
-ek avg  
-api ops  
-configs extend
 pysl dep
 
+usage config
+cookie command
+api ops  
+configs extend
+
+setup env
+
+draft search other
+bing
 '''
 
 

@@ -1,17 +1,16 @@
 import re
 import cv2
 import time
-from pysl import easy_request,re_args_get
 
 try:
-    from .utils_api import truepath,img_writer
+    from .utils_api import truepath,img_writer,easy_request,re_args_get
     from utils import Fplog,logprint
     path=truepath(__file__,'../log/extend_api/baidraw/log')
     logger=Fplog(path)
     def print(*log,logger=logger,**kw):
         logprint(*log,logger=logger,t=True,**kw)
 except:
-    from utils_api import truepath,img_writer
+    from utils_api import truepath,img_writer,easy_request,re_args_get
     
 def shape_choose_url(url):
     import numpy as np
