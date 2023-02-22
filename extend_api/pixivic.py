@@ -30,7 +30,7 @@ def search_setting(msg):
         
     d={
        'pg':('pg','int',1),
-       # 'pz':('pz','int',5),
+       'pz':('pz','int',5),
        'mode':('mode','str','male'),
        'maxps':('maxps','int',5),
        'allpn':('allpn','bool',False),
@@ -40,13 +40,12 @@ def search_setting(msg):
     
     mode=r['mode']
     pg=r['pg']
-    # pz=r['pz']
-    maxps=r['maxps']
+    pz=r['pz']
     
     fdate=date.replace('-','')[2:]
-    search_msg=f'{mode}|{fdate}|{pg}|{maxps}'
+    search_msg=f'{mode}|{fdate}|{pg}|{pz}'
     
-    r['fdate']=fdate
+    r['date']=date
     r['search_msg']=search_msg
     
     return r
@@ -71,7 +70,7 @@ def search_by_pid(pid=85633671,head_json='pixivic_search_pid.json',**kw):
         ori_urls.append(d['original'].replace('i.pximg.net','o.acgpic.net'))
     return ori_urls
 
-def search_by_rank(mode='day',date='2022-08-11',pg=1,
+def search_by_rank(mode='day',date='2022-08-11',pg=1,pz=5,
                    head_json='pixivic_search_rank.json',allpn=False,maxps=5,**kw):
     
     modes=['day','week','month','male','female']
@@ -82,7 +81,7 @@ def search_by_rank(mode='day',date='2022-08-11',pg=1,
     # pz=30 if pz>30 else pz
     
     base_url='https://api.bbmang.me/ranks?page={}&date={}&mode={}&pageSize={}'\
-                .format(pg,date,mode,maxps)
+                .format(pg,date,mode,pz)
     print(base_url)
     
     # with open(truepath(__file__,head_json)) as fp:
@@ -105,7 +104,7 @@ def search_by_rank(mode='day',date='2022-08-11',pg=1,
             if 'name' not in  ori_url:
                 ori_urls[n].append(ori_url.replace('i.pximg.net','o.acgpic.net'))
             cnt+=1
-            if not (allpn or cnt>=maxps):
+            if cnt>=maxps and not allpn:
                 break
             
     ori_urls=flatten(ori_urls)
@@ -113,10 +112,10 @@ def search_by_rank(mode='day',date='2022-08-11',pg=1,
 
 if __name__ == '__main__':
     
-    # msg='pic pid132112 modefemale pz=4 pg 3 allpn maxps=4 date230111'
-    # print(search_setting(msg))
+    msg='pic pid132112 modefemale pz=4  allpn maxps=3 date230111'
+    s=search_setting(msg)
     
-    r=search_by_rank(date='2023-02-20',maxps=3,allpn=True)
+    r=search_by_rank(**s)
     print(r)
     
     # r=search_by_pid(pid=104442365)
