@@ -72,6 +72,6 @@ ori| bool | False |是否生成原图品质(耗费点数增加)
 * 百度ai关键词较短，promote尽量为多个名词，出图质量一般，赠送点数很多
 * draft模型数多，出图质量好，每天赠送20次当日次数，过期不累加
 ### 拓展
-* 拓展接口可增加到[这里](https://github.com/Astesias/go-cqhttp-code/edit/master/msg_filter#L20)
+* 拓展接口可增加到[这里](https://github.com/Astesias/go-cqhttp-code/edit/master/msg_filter.py#L20)
 
 
