@@ -3,3 +3,4 @@ configs*.json
 log/
 __pycache__
 kw*.txt
+temp.py
