@@ -14,7 +14,7 @@ pie|kw|pg ix pn nc|[Pixivel](https://pixivel.moe/)搜图接口
 pic|\ |date mode |  [Pixivic](https://pixivic.com/)排行接口
 pic|pid|\ |  [Pixivic](https://pixivic.com/)搜图接口,查询失败会返回随机图片
 aidraw|kw |ukw ek ori sz [image] | [盗梦师AI绘画](https://printidea.art/)接口
-baidraw|kw |ek sz ori [image] | [百度AI绘画](https://yige.baidu.com/)接口,使用[预制promote](https://github.com/Astesias/go-cqhttp-code/blob/master/extend_api/aidraw.py#L71)加入kw
+baidraw|kw |ek sz ori [image] | [百度AI绘画](https://yige.baidu.com/)接口,使用[预制promote](https://github.com/Astesias/go-cqhttp-code/blob/master/extend_api/aidraw.py#L72)加入kw
 daidraw|kw |ek sz md [image] | [DraftAI绘画](https://draft.art/)接口
 roll| {n}d{m} | \ | 随机取n个[1,m]区间的值
 ping | \ | \ | 服务器模块测试
