@@ -9,5 +9,6 @@
                   },
     "server_private":{
                      "your friend id":12345
-                    }
+                    },
+    "test_group":123456
 }
