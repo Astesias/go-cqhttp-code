@@ -43,14 +43,14 @@ def sender3():
         sent_msg(t)
         TASK.task_done()
 
-def say(pid=configs.server_group["文件传输助手"],is_group=True):
+def say(pid=configs.test_group,is_group=True):
     test_json={\
      'post_type': 'message',
      'message_type': 'group',
      'self_id': configs.qq,
      'font': 0,
      'message': '',
-     'group_id': configs.server_group["文件传输助手"],
+     'group_id': configs.test_group,
      'sender': {'age': 0, 
                 'nickname': '测试用例',
                 'sex': 'unknown',
@@ -92,7 +92,7 @@ def say(pid=configs.server_group["文件传输助手"],is_group=True):
 def go_cqhttp():
     cmd('cd .. && .\go-cqhttp.exe -faststart')
 
-def timer(uid=configs.server_group["文件传输助手"],is_group=True):
+def timer(uid=configs.test_group,is_group=True):
     ping=Timer(10*60)
     while 1:
         try:
@@ -132,7 +132,7 @@ if __name__ == '__main__':
     api.add_resource(Recver, "/", endpoint="index")
     
     main_=threading.Thread(target=main,args=[configs.address.split(':')])
-    say_=threading.Thread(target=say,args=[configs.server_group["文件传输助手"],True])
+    say_=threading.Thread(target=say,args=[configs.test_group,True])
     timer_=threading.Thread(target=timer)
     sender1_=threading.Thread(target=sender1)
     sender2_=threading.Thread(target=sender2)

@@ -20,6 +20,15 @@ def get_db_available():
     amount=r['data']['amount']
     return int(amount)
 
+def get_all_template():
+    url='https://api.draft.art/api/template/list'
+    r=easy_request(url,header='draft_template.json',method='POST',data={'current': 1, 'size': 150})['data']['records']
+    r.sort(key=lambda x:x['id'])
+    for n,_ in enumerate(r):
+        print(n,_['name'])
+    with open(truepath(__file__,'draft_template_data.json'),'w') as fp:
+        json.dump(r,fp,ensure_ascii=False,indent=2)
+
 def get_template(ix=0,alltp=False):
     template=json.load(open(truepath(__file__,'./draft_template_data.json')))
     if alltp:
@@ -138,62 +147,14 @@ def daidu_aidraw(msg):
 
 if __name__=='__main__':
     
-    print(get_db_available())
-    tp=get_template(18,alltp=True)
+    # print(get_db_available())
+    get_all_template()
+    tp=get_template(92)
     
-    msg='daidraw kw=婚纱，露肩，红色瞳孔，白色长发，花束，长筒靴，白色手套  ek=0.1 sz=3 md18 [CQ:image,file=2904d060798636b051444917f63d4ae9.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/2535044688/974996372-2524594324-AA43291E4ED68D454245A7A871E02AF1/0?term=3&amp;is_origin=0]'
+    # msg='daidraw kw=婚纱，露肩，红色瞳孔，白色长发，花束，长筒靴，白色手套  ek=0.1 sz=3 md18 [CQ:image,file=2904d060798636b051444917f63d4ae9.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/2535044688/974996372-2524594324-AA43291E4ED68D454245A7A871E02AF1/0?term=3&amp;is_origin=0]'
     # print(bdraw_setting(msg))
-    print(daidu_aidraw(msg))
-
-
-
-
-
-
-
-# https://oss-cdn-main.draft.art/aiDraw/predict/output_hd/uF3LZgISC5XztYFbHirouBivBfHeXL8R.jpg
-
-# https://api.draft.art/api/util/image/listCommunity
-# https://api.draft.art/api/template/list
-# https://api.draft.art/api/util/image/listMine
-# https://pay.draft.art/api/wallet/get
-# https://api.draft.art/api/util/image/download/4xhd?id=70668850
-# https://api.draft.art/api/util/image/get?id=70668850
-
-# current: 1
-# mode: "afterCreation"
-# modelId: null
-# needCollectStatus: true
-# search: "    "
-# size: 30
-
-# current: 1
-# mode: "myCreation"
-# needCollectStatus: true
-# search: null
-# size: 30
-
-# createId: 1838860
-
-
-# keyword: 羽毛饰品，蓝色长发
-# height: 576
-# width: 1024
-# initImage: null
-# language: zh
-# templateId: 100018
-
-
-# keyword: 羽毛饰品，蓝色长发
-# height: 576
-# width: 1024
-# initImage: (binary)
-# language: zh
-# initImageStrength: 0.50
-# templateId: 100018
-
-
-
+    # print(daidu_aidraw(msg))
+    
 
 
 

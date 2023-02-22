@@ -342,7 +342,7 @@ def cleanCache():
     
     
 if __name__ == '__main__':
-    ping(configs.server_group["文件传输助手"],True,test=True)
+    ping(configs.test_group,True,test=True)
     
     
     
