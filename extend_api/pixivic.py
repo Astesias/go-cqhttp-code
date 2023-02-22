@@ -99,7 +99,7 @@ def search_by_rank(mode='day',date='2022-08-11',pg=1,
     for n,i in enumerate(data):
         ill=i['imageUrls']
         ori_urls.append([])
-        cnt=1
+        cnt=0
         for j in ill:
             ori_url=j['original']
             if 'name' not in  ori_url:
