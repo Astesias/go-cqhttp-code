@@ -11,7 +11,7 @@ orders     | required argment | optional argments | descriptions
 \          |Any Question but not in orders       |\                  |[chatGPT](https://chat.openai.com/) api
 发图        |\                |发图{*n}                |随机二次元[图片](https://api.yimian.xyz/img)多张
 pie|kw|pg ix pn nc|[Pixivel](https://pixivel.moe/)搜图接口
-pic|\ |pg date mode maxps allpn |  [Pixivic](https://pixivic.com/)排行接口
+pic|\ |pg pz date mode maxpn allpn |  [Pixivic](https://pixivic.com/)排行接口
 pic|pid|\ |  [Pixivic](https://pixivic.com/)搜图接口,查询失败会返回随机图片
 aidraw|kw |ukw ek ori sz [image] | [盗梦师AI绘画](https://printidea.art/)接口
 baidraw|kw |ek sz ori [image] | [百度AI绘画](https://yige.baidu.com/)接口,使用[预制promote](https://github.com/Astesias/go-cqhttp-code/blob/master/extend_api/aidraw.py#L72)加入kw
@@ -29,10 +29,10 @@ ukw|str|\ |反向关键词(unkeyword\|depromote)
 pg| int [1,] | 1 |搜索结果页(page)序
 ix| int [1,] | 1 |页中作品序号(index)
 pn| int [1,] | 1 |作品中图片序号(pic num)
-date| date(YYMMDD) | 220811 |某日排行榜
+date| date(YYMMDD) | now-2day |某日排行榜
 mode| enmu(`day`,`week`,`month`,`male`,`female`)|`male` |排行依据
-maxps | int [1,10] | 5 | 排行榜前n
 allpn | bool | False | 展示所有pn,默认只展示作品第一张
+maxpn | int [1,10] | 5 | 一个最大展示数量(绑定allpn)
 ek| int [0,10] | 3 | 生成图片与给定图片相似度
 sz| int [1,]| index of 16:9 | 生成图片大小(各接口互异)<br>aidraw:[1:1, 9:16,16:9,6:13,3:4 ,4:3]<br>baidraw:[1:1,16:9,9:16,3:2,4:3]<br>draft不同模型支持size不同
 md | int [0,100+] | 18| ai模型类别,不断更新中 
