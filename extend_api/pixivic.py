@@ -104,7 +104,7 @@ def search_by_rank(mode='day',date='2022-08-11',pg=1,pz=5,
             if 'name' not in  ori_url:
                 ori_urls[n].append(ori_url.replace('i.pximg.net','o.acgpic.net'))
             cnt+=1
-            if cnt>=maxps and not allpn:
+            if cnt>maxps and not allpn:
                 break
             
     ori_urls=flatten(ori_urls)
