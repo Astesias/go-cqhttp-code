@@ -34,7 +34,7 @@ mode| enmu(`day`,`week`,`month`,`male`,`female`)|`male` |排行依据
 maxps | int [1,10] | 5 | 排行榜前n
 allpn | bool | False | 展示所有pn,默认只展示作品第一张
 ek| int [0,10] | 3 | 生成图片与给定图片相似度
-sz| int [1,]| vaule of 16:9 | 生成图片大小(各接口互异)<br>aidraw:[1:1, 9:16,16:9,6:13,3:4 ,4:3]<br>baidraw:[1:1,16:9,9:16,3:2,4:3]<br>draft不同模型支持size不同
+sz| int [1,]| index of 16:9 | 生成图片大小(各接口互异)<br>aidraw:[1:1, 9:16,16:9,6:13,3:4 ,4:3]<br>baidraw:[1:1,16:9,9:16,3:2,4:3]<br>draft不同模型支持size不同
 md | int [0,100+] | 18| ai模型类别,不断更新中 
 ori| bool | False |是否生成原图品质(耗费点数增加)
 [image]| image | \ | 命令消息中的用于ai绘画参考的图片(只需图片无需参数名)
