@@ -20,7 +20,7 @@ TASK=queue.Queue(maxsize=20)
 
 class Recver(Resource):
     def get(self):
-        return TASK
+        return TASK.qsize()
     def post(self):
         _ = request.json
         global TASK
@@ -190,7 +190,6 @@ Example
 
 '''
 TODO
-pysl dep
 
 usage config
 cookie command
