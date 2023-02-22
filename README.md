@@ -24,8 +24,8 @@ help | \ | {order_name} | 获取命令帮助信息
 argments     | type | default | descriptions
 :-----:    |:-----:           |:-----:            |:-----:
 pid|int|\ |p站图片id
-kw|str|\ |关键词(keyword|promote)
-ukw|str|\ |反向关键词(unkeyword|depromote)
+kw|str|\ |关键词(keyword\|promote)
+ukw|str|\ |反向关键词(unkeyword\|depromote)
 pg| int [1,] | 1 |搜索结果页(page)序
 ix| int [1,] | 1 |页中作品序号(index)
 pn| int [1,] | 1 |作品中图片序号(pic num)
