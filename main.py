@@ -142,10 +142,7 @@ if __name__ == '__main__':
     
     global tasks
     tasks=[main_,say_,timer_,go_cqhttp_,sender1_,sender2_,sender3_]
-    if not len(sys.argv)>=2:
-        if sys.argv[1]=='-startCQ':
-            tasks.remove(go_cqhttp_)
-        pass
+    tasks.remove(go_cqhttp_)
     tasks.remove(timer_)
     # tasks.remove(say_)
     
@@ -192,20 +189,19 @@ Example
 '''
 
 
-# TODO
-    # draft search other
-    # help
-    
-    # seach author  x
-    # pix pn show all  x
-    # random sent daily  x
-    
+'''
+TODO
+bing
+usage config
+setup env
+draft search other
+fix dai  
+ek avg  
+api ops  
+configs extend
+pysl dep
 
-
-
-# fix dai  ek avg  api ops
-
-
+'''
 
 
 

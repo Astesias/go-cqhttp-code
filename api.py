@@ -1,5 +1,6 @@
 import httpx
-from utils import configs
+from utils import Configs
+configs=Configs('configs.json')
 
 global Base_url
 Base_url=configs.base_url

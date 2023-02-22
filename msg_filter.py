@@ -11,7 +11,8 @@ from extend_api.baidraw import baidu_aidraw,get_balance
 from extend_api.daidraw import daidu_aidraw,get_db_available
 from extend_api.utils_api import img_writers,clear_img_cache,img_writer
 
-from utils import Fplog,logprint,configs
+from utils import Fplog,logprint,Configs
+configs=Configs('configs.json')
 logger=Fplog('./log/filter/log')
 def print(*log,logger=logger,**kw):
     logprint(*log,logger=logger,**kw)
@@ -21,9 +22,10 @@ def sent_msg(_,at=True):
     r=json_rule(_)
     if r:
         sender,msg,pid,is_group,is_self,is_order=r
-        if (cq.at(configs.qq) in msg or is_order) and (sender!=configs.id or is_order):
+        if (cq.at(configs.qq) in msg or is_order or ('@'+configs.id in msg) ) and\
+            (sender!=configs.id or is_order):
             
-            msg=msg.replace(cq.at(configs.qq),'')
+            msg=msg.replace(cq.at(configs.qq),'').replace('@'+configs.id,'')
             ex='\n# TEST ORDER #' if _.get("font") == 10 else ''
             if at and is_group:
                 bf=cq.at(_["sender"]["user_id"])

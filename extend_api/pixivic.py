@@ -122,30 +122,8 @@ if __name__ == '__main__':
     r=search_by_pid(pid=104442365)
     print(r)
     
-    
-# 'https://api.bbmang.me/ranks?page=1&date=2023-01-03&mode=day&pageSize=30'
-    
-# ['https://o.acgpic.net/img-original/img/2020/11/13/01/32/47/85633671_p0.jpg', 
-#  'https://o.acgpic.net/img-original/img/2020/11/13/01/32/47/85633671_p1.jpg', 
-#  'https://o.acgpic.net/img-original/img/2020/11/13/01/32/47/85633671_p2.jpg', 
-#  'https://o.acgpic.net/img-original/img/2020/11/13/01/32/47/85633671_p3.jpg', 
-#  'https://o.acgpic.net/img-original/img/2020/11/13/01/32/47/85633671_p4.jpg', 
-#  'https://o.acgpic.net/img-original/img/2020/11/13/01/32/47/85633671_p5.jpg', 
-#  'https://o.acgpic.net/img-original/img/2020/11/13/01/32/47/85633671_p6.jpg', 
-#  'https://o.acgpic.net/img-original/img/2020/11/13/01/32/47/85633671_p7.jpg', 
-#  'https://o.acgpic.net/img-original/img/2020/11/13/01/32/47/85633671_p8.jpg']
-     
-    
 
 
-
-
-    # head={'head':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36','referer':'https://pixivic.com/keywords?tag=%E5%88%BB%E6%99%B4&illustType=illust&VNK=d0b31412','authorization':'eyJhbGciOiJIUzUxMiJ9.eyJwZXJtaXNzaW9uTGV2ZWwiOjEsInJlZnJlc2hDb3VudCI6MiwiaXNDaGVja1Bob25lIjowLCJ1c2VySWQiOjE4MzEzNCwiaWF0IjoxNjcyNTcxMzkzLCJleHAiOjE2NzMwODk3OTN9.jfma5zfxWoR-XTb188W62Wrzuo_kS0Tsg9wFnfhf5RdqNod250HKa8WfQdNsMzpsZWl-izkEohiA60KugsGg5A'}
-    
-        # base_url='https://api.bbmang.me/illustrations?illustType=illust&searchType=original&maxSanityLevel=3&page=3&keyword={}&pageSize=30'.format(kw)
-        
-        
-        
         
         
         
