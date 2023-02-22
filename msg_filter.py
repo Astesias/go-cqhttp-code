@@ -2,6 +2,7 @@ import cq
 import time
 import random
 import asyncio
+import traceback
 from api import send_msg,clean_cache
 from extend_api.chatGPT import chat
 from extend_api.pixivel import search,img_args,image_msg
@@ -251,8 +252,9 @@ def roll_api(msg,pid,is_group,bf='',ex=''):
     
         
         
-def ping(pid,is_group,bf='',ex=''):
-    asyncio.run(send_msg(pid,'Bot is servering',is_group=is_group,bf=bf))
+def ping(pid,is_group,bf='',ex='',test=False):
+    if not test:
+        asyncio.run(send_msg(pid,'Bot is servering',is_group=is_group,bf=bf))
     
     a=get_available()
     b=get_balance()
@@ -261,14 +263,16 @@ def ping(pid,is_group,bf='',ex=''):
                    f'yige.baidu.com 剩余点数: {b} 预计可使用: {b//2}次\n'+\
                    f'draft.art.com  剩余点数: {d} 预计可使用: {d}次\n'
     try:
-        img_writers(search_by_pid(68296699))
+        img_writers(url=search_by_pid(68296699),headers='pixivic_search_pid.json')
         pixivic_process='pixivic connect success'
     except:
+        print(traceback.print_exc())
         pixivic_process='pixivic connect failed'
     try:
         search('刻晴',nocache=True)
         pixivel_process='pixivel connect success'
     except:
+        print(traceback.print_exc())
         pixivel_process='pixivel connect failed'
     try:
         assert 'fail' not in chat('你是谁')
@@ -276,7 +280,10 @@ def ping(pid,is_group,bf='',ex=''):
     except:
         chat_process='chatGPT connect failed'
     module_process=aidraw_process+'\n'.join([pixivic_process,pixivel_process,chat_process])
-    asyncio.run(send_msg(pid,module_process,is_group=is_group,bf=bf+'\n'))
+    if not test:
+        asyncio.run(send_msg(pid,module_process,is_group=is_group,bf=bf+'\n'))
+    else:
+        print(module_process)
     
 def help_api(msg,pid,is_group,bf='',ex=''):
     bf=bf.strip('\n')+'Help message\n'
@@ -334,7 +341,8 @@ def cleanCache():
     clear_img_cache(num=40)
     
     
-    
+if __name__ == '__main__':
+    ping(configs.server_group["文件传输助手"],True,test=True)
     
     
     

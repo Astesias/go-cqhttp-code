@@ -101,7 +101,7 @@ def img_writers(path='../../data/images',url=None,headers=None):
         with open(p, "wb") as f:
      	     f.write(r.content)
         if os.stat(p).st_size<3000:
-            name.remove(name)
+            names.remove(name)
             print('A file download failed')
 
     return names
