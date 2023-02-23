@@ -260,7 +260,7 @@ def roll_api(msg,pid,is_group,target_usr=None,bf='',ex=''):
             ds=r=BACKDOOR_ROLL[1]
             BACKDOOR_ROLL=None
             asyncio.run(send_msg(pid,
-                     f'{msg}\n{ds}={sum(r)}'
+                     f'{msg}\n={r}'
                      ,is_group=is_group,bf=bf,ex=ex))
             return
     asyncio.run(send_msg(pid,
