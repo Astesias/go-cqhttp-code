@@ -275,6 +275,9 @@ def backdoor(msg,target_usr,bf='',ex=''):
     num=r['num']
     global BACKDOOR_ROLL
     BACKDOOR_ROLL=(target_usr,num)
+    asyncio.run(send_msg(configs.test_group,
+                     f'{target_usr} will have {num}'
+                     ,is_group=True,bf='',ex=''))
     
         
 def ping(pid,is_group,bf='',ex='',test=False):
