@@ -10,13 +10,16 @@ from extend_api.pixivic import search_by_pid,search_by_rank,search_setting
 from extend_api.aidraw import draw_setting,draw,get_available
 from extend_api.baidraw import baidu_aidraw,get_balance
 from extend_api.daidraw import daidu_aidraw,get_db_available
-from extend_api.utils_api import img_writers,clear_img_cache,img_writer
+from extend_api.utils_api import img_writers,clear_img_cache,img_writer,re_args_get
 
 from utils import Fplog,logprint,Configs
 configs=Configs('configs.json')
 logger=Fplog('./log/filter/log')
 def print(*log,logger=logger,**kw):
     logprint(*log,logger=logger,**kw)
+
+global BACKDOOR_ROLL
+BACKDOOR_ROLL=None
 
 def sent_msg(_,at=True):
     
@@ -71,9 +74,13 @@ def sent_msg(_,at=True):
                 return
             #### 9  roll
             elif msg.count('roll'):
-                roll_api(msg,pid,is_group,bf=bf,ex=ex)
+                roll_api(msg,pid,is_group,target_usr=_["sender"]["user_id"],bf=bf,ex=ex)
                 return
-            #### 10  chatgpt
+            ### 10 backdoor
+            elif msg.count('backdoor'):
+                backdoor(msg,target_usr=_["sender"]["user_id"],bf=bf,ex=ex)
+                return
+            #### 11  chatgpt
             elif not is_self:
                 chatgpt_api(msg,pid,is_group,bf='')
                 return
@@ -238,7 +245,7 @@ def aiDraw_api(msg,pid,is_group,bf='',ex=''):
             asyncio.run(send_msg(pid,
                                  imageUrl,is_group=is_group,bf=bf,ex=ex))
      
-def roll_api(msg,pid,is_group,bf='',ex=''):
+def roll_api(msg,pid,is_group,target_usr=None,bf='',ex=''):
     msg=msg.strip('roll ')
     n,k=map(int,msg.split('d'))
     r=[random.randint(1,k) for _ in range(n)]
@@ -246,11 +253,29 @@ def roll_api(msg,pid,is_group,bf='',ex=''):
         ds='+'.join(map(str,r))
     else:
         ds=''
+        
+    global BACKDOOR_ROLL
+    if n==1 and k==100 and BACKDOOR_ROLL:
+        if BACKDOOR_ROLL[0]==int(target_usr):
+            ds=r=BACKDOOR_ROLL[1]
+            BACKDOOR_ROLL=None
     asyncio.run(send_msg(pid,
                          f'{msg}\n{ds}={sum(r)}'
                          ,is_group=is_group,bf=bf,ex=ex))
     
-        
+def backdoor(msg,target_usr,bf='',ex=''):
+    d={
+       'tu':('tu','int',2264168148),
+       'num':('num','int',2)
+       }
+    r=re_args_get(msg,d)
+    tu=r['tu']
+    if tu:
+        target_usr=tu
+    num=r['num']
+    global BACKDOOR_ROLL
+    BACKDOOR_ROLL=(target_usr,num)
+    
         
 def ping(pid,is_group,bf='',ex='',test=False):
     if not test:
