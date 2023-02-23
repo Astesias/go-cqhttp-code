@@ -25,7 +25,7 @@ def get_all_template():
     r=easy_request(url,header='draft_template.json',method='POST',data={'current': 1, 'size': 150})['data']['records']
     r.sort(key=lambda x:x['id'])
     for n,_ in enumerate(r):
-        print(n,_['name'])
+        print(n,_['id'],_['name'])
     with open(truepath(__file__,'draft_template_data.json'),'w') as fp:
         json.dump(r,fp,ensure_ascii=False,indent=2)
 
@@ -33,7 +33,10 @@ def get_template(ix=0,alltp=False):
     template=json.load(open(truepath(__file__,'./draft_template_data.json')))
     if alltp:
         return template
-    t=template[ix]
+    for _ in template:
+        if int(_['id'])-100000==ix:
+            t=_
+            break
     print(t['name'])
     ss=[]
     for s in t['sizes']:
@@ -149,7 +152,7 @@ if __name__=='__main__':
     
     # print(get_db_available())
     get_all_template()
-    tp=get_template(92)
+    tp=get_template(136)
     
     # msg='daidraw kw=婚纱，露肩，红色瞳孔，白色长发，花束，长筒靴，白色手套  ek=0.1 sz=3 md18 [CQ:image,file=2904d060798636b051444917f63d4ae9.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/2535044688/974996372-2524594324-AA43291E4ED68D454245A7A871E02AF1/0?term=3&amp;is_origin=0]'
     # print(bdraw_setting(msg))
