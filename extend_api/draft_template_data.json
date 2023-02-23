@@ -8,7 +8,7 @@
     "initImage": "",
     "initImageStrength": 0.0,
     "defaultPrompt": "平静的湖面，绿树环绕，美丽的乡村，落日余晖",
-    "typeOrder": 10,
+    "typeOrder": 13,
     "sizes": [
       {
         "id": 1,
@@ -224,7 +224,7 @@
     "initImage": "",
     "initImageStrength": 0.0,
     "defaultPrompt": "一个女孩手捧鲜花，花朵，花瓣飘落，黎明",
-    "typeOrder": 12,
+    "typeOrder": 11,
     "sizes": [
       {
         "id": 1,
@@ -361,7 +361,7 @@
     "initImage": "",
     "initImageStrength": 0.0,
     "defaultPrompt": "欧洲的城堡，在夜晚，笼罩在薄雾中，周围有树木、路灯、星星",
-    "typeOrder": 11,
+    "typeOrder": 13,
     "sizes": [
       {
         "id": 9,
