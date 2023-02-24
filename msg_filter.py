@@ -301,13 +301,13 @@ def ping(pid,is_group,bf='',ex='',test=False):
         print(traceback.print_exc())
         pixivic_process='pixivic connect failed'
     try:
-        search('刻晴',nocache=True)
+        search('ai',nocache=True)
         pixivel_process='pixivel connect success'
     except:
         print(traceback.print_exc())
         pixivel_process='pixivel connect failed'
     try:
-        assert 'fail' not in chat('你是谁')
+        assert 'fail' not in chat('what is your name')
         chat_process='chatGPT connect success'
     except:
         chat_process='chatGPT connect failed'
