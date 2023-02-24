@@ -256,7 +256,7 @@ def roll_api(msg,pid,is_group,target_usr=None,bf='',ex=''):
         
     global BACKDOOR_ROLL
     if n==1 and k==100 and BACKDOOR_ROLL:
-        if BACKDOOR_ROLL[0]==int(target_usr) and 0<=BACKDOOR_ROLL[0]<=k:
+        if BACKDOOR_ROLL[0]==int(target_usr) and 0<=BACKDOOR_ROLL[1]<=k:
             ds=r=BACKDOOR_ROLL[1]
             BACKDOOR_ROLL=None
             asyncio.run(send_msg(pid,
