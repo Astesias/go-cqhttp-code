@@ -280,7 +280,7 @@ def backdoor(msg,target_usr,bf='',ex=''):
     global BACKDOOR_ROLL
     BACKDOOR_ROLL=(target_usr,num)
     asyncio.run(send_msg(configs.test_group,
-                     f'{target_usr} will have {num}'
+                     f'{target_usr} will get {num}'
                      ,is_group=True,bf='',ex=''))
     
         
