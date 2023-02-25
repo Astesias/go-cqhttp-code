@@ -68,19 +68,15 @@ def sent_msg(_,at=True):
             elif msg.count('pic'):
                 pixivic_api(msg,pid,is_group,bf=bf,ex=ex)
                 return
-            #### 8  group_test
-            elif msg.count('Q群管家'):
-                groupTest_api(msg,pid,is_group,bf=bf,ex=ex)
-                return
-            #### 9  roll
+            #### 8  roll
             elif msg.count('roll'):
                 roll_api(msg,pid,is_group,target_usr=_["sender"]["user_id"],bf=bf,ex=ex)
                 return
-            ### 10 backdoor
+            ### 9 backdoor
             elif msg.count('backdoor'):
                 backdoor(msg,target_usr=_["sender"]["user_id"],bf=bf,ex=ex)
                 return
-            #### 11  chatgpt
+            #### 10  chatgpt
             elif not is_self:
                 chatgpt_api(msg,pid,is_group,bf='')
                 return
@@ -210,11 +206,6 @@ def randomPic_api(msg,pid,is_group,num=1,bf='',ex=''):
                                 is_group=is_group,ex=ex,bf=bf)
                                         )
          
-def groupTest_api(msg,pid,is_group,bf='',ex=''):
-    asyncio.run(send_msg(pid,
-                         '随机图片'+\
-                         '{}'.format(cq.image(img_writer()[0])),is_group=is_group,ex=ex)) 
-        
 def aiDraw_api(msg,pid,is_group,bf='',ex=''):
     if msg.count('baidraw'):
         msg=msg.replace('baidraw ','').replace('baidraw','')
