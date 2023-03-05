@@ -4,6 +4,47 @@ import time
 import json
 import random
 
+class Auto_model():
+    def __init__(self,model_dir,model_name_like,model_extend_name='.pth'):
+        self.model_dir=model_dir
+        self.model_name_like=model_name_like
+        self.model_extend_name=model_extend_name
+        newpath(os.path.join(model_dir,model_name_like))
+    
+    def create_new(self,n=0):
+        return os.path.join(self.model_dir,self.model_name_like+f'{n}{self.model_extend_name}')
+
+    def auto_load(self,get_latest=False):
+        all_model=os.listdir(self.model_dir)
+        latest=None
+
+        for _ in all_model:
+
+            n=_.strip(self.model_name_like).strip(self.model_extend_name)
+            n=int(n)
+            if not latest or n>latest:
+                latest=n
+        if get_latest:
+            return latest
+        if latest!=None:
+            r=os.path.join(self.model_dir,self.model_name_like+f'{n}{self.model_extend_name}')
+            print(f'load model {r}')
+            return r
+        else:
+            print('no model exist')
+            return None
+        
+    def auto_save(self,n):
+        r=os.path.join(self.model_dir,self.model_name_like+f'{n}{self.model_extend_name}')
+        return r
+
+def newpath(path):
+    d=os.path.split(path)[0]
+    if os.path.exists(d):
+        pass
+    else:
+        os.mkdir(d)
+
 def re_matchall(pattern,s):
     r=[]
     match=re.search(pattern,s)
@@ -115,8 +156,15 @@ def easy_request(url,header=None,format_url_args=None,
         return response
     
     try:
+        if isinstance(response,bytes):
+            response=str(response,encoding='utf8')
+            return response
+    except:
+        pass
+    try:
         data=json.loads(response)
         return data
+
     except :
         soup=bs(response,features='lxml')
         return soup
@@ -244,7 +292,7 @@ if __name__ == '__main__':
     #                      'https://o.acgpic.net/img-original/img/2020/11/13/01/32/47/85633671_p8.jpg'],
     #      ))
     
-    make_json('pixivel')
+    make_json('chatGPT2_cookies')
     
     
     

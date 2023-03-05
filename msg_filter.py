@@ -11,6 +11,7 @@ from extend_api.aidraw import draw_setting,draw,get_available
 from extend_api.baidraw import baidu_aidraw,get_balance
 from extend_api.daidraw import daidu_aidraw,get_db_available
 from extend_api.utils_api import img_writers,clear_img_cache,img_writer,re_args_get
+from extend_api.chatGPT2 import chat2
 
 from utils import Fplog,logprint,Configs
 configs=Configs('configs.json')
@@ -75,6 +76,15 @@ def sent_msg(_,at=True):
             ### 9 backdoor
             elif msg.count('backdoor'):
                 backdoor(msg,target_usr=_["sender"]["user_id"],bf=bf,ex=ex)
+                return
+            #### 10  chatgpt2
+            elif msg.count('chat'):
+                if msg.count('-reset'):
+                    msg=msg.replace('-reset','')
+                    reset=True
+                else:
+                    reset=False
+                chatgpt2_api(msg,pid,is_group,reset=reset,bf='')
                 return
             #### 10  chatgpt
             elif not is_self:
@@ -151,6 +161,12 @@ def is_server_(_,order_form='@ '):
 
 def chatgpt_api(msg,pid,is_group,bf='',ex=''):
     q=chat(msg)
+    r='\nQuestion: {}\nChatGPT: {}'.format(msg,q)
+    # print(r)
+    asyncio.run(send_msg(pid,r,is_group=is_group,bf=bf))   
+
+def chatgpt2_api(msg,pid,is_group,reset=False,bf='',ex=''):
+    q=chat(msg,reset=reset)
     r='\nQuestion: {}\nChatGPT: {}'.format(msg,q)
     # print(r)
     asyncio.run(send_msg(pid,r,is_group=is_group,bf=bf))    
