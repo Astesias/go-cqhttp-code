@@ -167,7 +167,7 @@ def chatgpt_api(msg,pid,is_group,bf='',ex=''):
     asyncio.run(send_msg(pid,r,is_group=is_group,bf=bf))   
 
 def chatgpt2_api(msg,pid,is_group,reset=False,bf='',ex=''):
-    q=chat(msg,reset=reset)
+    q=chat2(msg,reset=reset)
     r='\nQuestion: {}\nChatGPT: {}'.format(msg,q)
     # print(r)
     asyncio.run(send_msg(pid,r,is_group=is_group,bf=bf))    

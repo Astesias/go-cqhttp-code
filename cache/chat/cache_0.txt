@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "我刚刚问了什么"
+    },
+    {
+      "role": "assistant",
+      "content": "很抱歉，作为AI语言模型，我没有记录你之前的问题，可以再次告诉我你的问题吗？"
+    },
+    {
+      "role": "user",
+      "content": "我刚刚问了什么"
+    },
+    {
+      "role": "assistant",
+      "content": "你刚刚问了\"我刚刚问了什么\"。"
+    }
+  ]
+}
