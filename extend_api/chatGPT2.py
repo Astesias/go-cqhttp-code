@@ -45,7 +45,7 @@ def chat2(question,reset=False):
         data['messages'].append({'role': 'user', 'content': question})
         save_path=history.create_new(history.auto_load(get_latest=True))
     else:
-        save_path=history.create_new(history.auto_load(get_latest=True))
+        save_path=history.create_new(history.auto_load(get_latest=True)+1)
         
     write_content(save_path,question,role='user')
     
