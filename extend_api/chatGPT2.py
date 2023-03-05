@@ -21,9 +21,8 @@ def write_content(file,content,role='user'):
     if not data:
         data={'messages': []}
     data['messages'].append({'role': role, 'content': content})
-    json.dump('{}',open(file,'w'),ensure_ascii=False,indent=2)
-    os.chmod(file, stat.S_IRWXU)
-    json.dump(data,open(file,'w'),ensure_ascii=False,indent=2)
+    with open(file,'w') as fp:
+        json.dump(data,fp,ensure_ascii=False,indent=2)
 
 
 def chat2(question,reset=False):

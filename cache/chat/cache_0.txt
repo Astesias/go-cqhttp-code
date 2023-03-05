@@ -31,6 +31,22 @@
     {
       "role": "assistant",
       "content": "你刚刚问了\"我刚刚问了什么\"。"
+    },
+    {
+      "role": "user",
+      "content": "我刚刚问了什么"
+    },
+    {
+      "role": "assistant",
+      "content": "你刚刚问了\"我刚刚问了什么\"。"
+    },
+    {
+      "role": "user",
+      "content": "我刚刚问了什么"
+    },
+    {
+      "role": "assistant",
+      "content": "你刚刚问了\"我刚刚问了什么\"。"
     }
   ]
 }

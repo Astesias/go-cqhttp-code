@@ -68,6 +68,7 @@ def ScaleImage(img, fileout,sz):
     img=cv2.resize(img,sz)
     cv2.imwrite(fileout,img)
    
+
 def bdraw_setting(msg):
     d= {
         "kw":('kw','str',''),
