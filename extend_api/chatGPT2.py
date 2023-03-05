@@ -21,6 +21,8 @@ def write_content(file,content,role='user'):
     if not data:
         data={'messages': []}
     data['messages'].append({'role': role, 'content': content})
+    if len(data['messages'])>=200:
+        data['messages']=data['messages'][100:]
     with open(file,'w') as fp:
         json.dump(data,fp,ensure_ascii=False,indent=2)
 
