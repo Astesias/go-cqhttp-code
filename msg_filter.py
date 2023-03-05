@@ -79,6 +79,7 @@ def sent_msg(_,at=True):
                 return
             #### 10  chatgpt2
             elif msg.count('chat'):
+                msg=msg.replace('chat','').replace('chat ','')
                 if msg.count('-reset'):
                     msg=msg.replace('-reset','')
                     reset=True
