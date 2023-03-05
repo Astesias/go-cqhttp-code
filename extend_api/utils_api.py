@@ -4,6 +4,7 @@ import time
 import json
 import random
 
+
 class Auto_model():
     def __init__(self,model_dir,model_name_like,model_extend_name='.pth'):
         self.model_dir=model_dir
