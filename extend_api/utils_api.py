@@ -23,12 +23,12 @@ class Auto_model():
 
             n=_.strip(self.model_name_like).strip(self.model_extend_name)
             n=int(n)
-            if not latest or n>latest:
+            if latest==None or n>latest:
                 latest=n
         if get_latest:
             return latest
         if latest!=None:
-            r=os.path.join(self.model_dir,self.model_name_like+f'{n}{self.model_extend_name}')
+            r=os.path.join(self.model_dir,self.model_name_like+f'{latest}{self.model_extend_name}')
             print(f'load model {r}')
             return r
         else:
