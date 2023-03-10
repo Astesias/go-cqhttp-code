@@ -1,6 +1,6 @@
 import json
-import stat
-import os
+import time
+
 
 try:
     from .utils_api import easy_request,truepath,Auto_model
@@ -19,7 +19,9 @@ def write_content(file,content,role='user'):
     except:
         data=None
     if not data:
-        data={'messages': []}
+        data={'messages': [],
+              "time":int(time.time()),
+              "sign":"eeb5d58ed7d5979ea965fb44a1c28ff8a0f6f9c0cffc9392e4a176109766e6db"}
     data['messages'].append({'role': role, 'content': content})
     if len(data['messages'])>=200:
         data['messages']=data['messages'][100:]
@@ -52,7 +54,9 @@ def chat2(question,reset=False):
     write_content(save_path,question,role='user')
     
     if not data:
-        data={'messages': [{'role': "user", 'content': question}]}
+        data={'messages': [{'role': "user", 'content': question}],
+              "time":int(time.time()),
+              "sign":"eeb5d58ed7d5979ea965fb44a1c28ff8a0f6f9c0cffc9392e4a176109766e6db"}
     # for i in data['messages']:
     #     print(i['content'])
     # print(data)

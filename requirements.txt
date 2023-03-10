@@ -1,0 +1,6 @@
+demjson
+flask_restful
+flask
+urllib3
+opencv-python
+python_version_not_match_min_3.8; python_version < '3.8'

@@ -5,7 +5,7 @@ import demjson
 class Fplog():
     def __init__(self,filename):
         self.filename=filename+'_'+getime()+'.txt'
-        newpath(self.filename)
+        newpath(self.filename,isfile=True)
         self.fp=open(self.filename,'w')
     def add(self,message,t=True):
         self.fp=open(self.filename,'a+')
@@ -25,12 +25,21 @@ class Configs:
         for k,v in cfg.items():
             self.__setattr__(k, v)
             
-def newpath(path):
-    d=os.path.split(path)[0]
-    if os.path.exists(d):
-        pass
-    else:
-        os.mkdir(d)         
+def newpath(path,isfile=False):
+    assert path[0]!='/'
+    p=[]
+    for i in range(10):
+        if not os.path.exists(path):
+            l,r=os.path.split(path)
+            p.append(r)
+        else:
+            break
+        path=l[:]
+    if isfile:
+        p=p[1:]
+    for _ in p[::-1]:
+        l=os.path.join(l,_)
+        os.mkdir(l)      
 
 class Timer():
     def __init__(self,sep=1):
@@ -65,5 +74,5 @@ def cmd(command):
     
 if __name__ == '__main__':
     
-    print(Configs().qq)
+    print(Configs(file='configs-2.json').qq)
     

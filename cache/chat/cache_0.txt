@@ -6,7 +6,7 @@
     },
     {
       "role": "assistant",
-      "content": "很抱歉，作为AI语言模型，我没有记录你之前的问题，可以再次告诉我你的问题吗？"
+      "content": "Invalid signature"
     },
     {
       "role": "user",
@@ -14,7 +14,7 @@
     },
     {
       "role": "assistant",
-      "content": "你刚刚问了\"我刚刚问了什么\"。"
+      "content": "Invalid signature"
     },
     {
       "role": "user",
@@ -22,31 +22,13 @@
     },
     {
       "role": "assistant",
-      "content": "你刚刚问了\"我刚刚问了什么\"。"
+      "content": "Invalid signature"
     },
     {
       "role": "user",
       "content": "我刚刚问了什么"
-    },
-    {
-      "role": "assistant",
-      "content": "你刚刚问了\"我刚刚问了什么\"。"
-    },
-    {
-      "role": "user",
-      "content": "我刚刚问了什么"
-    },
-    {
-      "role": "assistant",
-      "content": "你刚刚问了\"我刚刚问了什么\"。"
-    },
-    {
-      "role": "user",
-      "content": "我刚刚问了什么"
-    },
-    {
-      "role": "assistant",
-      "content": "你刚刚问了\"我刚刚问了什么\"。"
     }
-  ]
+  ],
+  "time": 1678086065255,
+  "sign": "eeb5d58ed7d5979ea965fb44a1c28ff8a0f6f9c0cffc9392e4a176109766e6db"
 }
