@@ -40,7 +40,8 @@ class Auto_model():
         return r
 
 def newpath(path,isfile=False):
-    assert path[0]!='/'
+    if path[0]=='/':
+        Warning('your are editing the root directory')
     p=[]
     for i in range(10):
         if not os.path.exists(path):
@@ -53,7 +54,7 @@ def newpath(path,isfile=False):
         p=p[1:]
     for _ in p[::-1]:
         l=os.path.join(l,_)
-        os.mkdir(l)
+        os.mkdir(l)   
 
 def re_matchall(pattern,s):
     r=[]

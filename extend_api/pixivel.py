@@ -4,14 +4,14 @@ import json
 from urllib.parse import quote
 
 try:
-    from .utils_api import truepath,img_writer,re_args_get,easy_request
+    from .utils_api import truepath,img_writer,re_args_get,easy_request,newpath
     from utils import Fplog,logprint
     path=truepath(__file__,'../log/extend_api/pixivel/log')
     logger=Fplog(path)
     def print(*log,logger=logger,**kw):
         logprint(*log,logger=logger,t=True,**kw)
 except:
-    from utils_api import truepath,img_writer,re_args_get,easy_request
+    from utils_api import truepath,img_writer,re_args_get,easy_request,newpath
 
 def img_args(msg):
 
@@ -51,6 +51,7 @@ f'ID:{pid} 作者:{author}\n\
 def load_cache(kw,page,root='../cache/pixivel'):
     cache_name='kw_{}_{}.txt'.format(kw,page)
     path=truepath(__file__,root,cache_name)
+    
     with open(path,'r') as fp:
         response=fp.read()
     print('load cache',cache_name)
@@ -59,6 +60,7 @@ def load_cache(kw,page,root='../cache/pixivel'):
 def save_cache(kw,page,response,root='../cache/pixivel'):
     cache_name='kw_{}_{}.txt'.format(kw,page)
     path=truepath(__file__,root,cache_name)
+    newpath(path,is_file=True)
     # if not os.path.exists(path):
     with open(path,'w') as fp:
         fp.write(response)

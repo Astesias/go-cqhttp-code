@@ -26,7 +26,8 @@ class Configs:
             self.__setattr__(k, v)
             
 def newpath(path,isfile=False):
-    assert path[0]!='/'
+    if path[0]=='/':
+        Warning('your are editing the root directory')
     p=[]
     for i in range(10):
         if not os.path.exists(path):

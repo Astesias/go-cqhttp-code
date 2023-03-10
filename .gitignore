@@ -2,5 +2,6 @@ configs*.json
 *.xml
 log/
 __pycache__
-kw*.txt
+*.txt
 temp.py
+temp*.jpg
