@@ -5,3 +5,4 @@ __pycache__
 *.txt
 temp.py
 temp*.jpg
+!requirements.txt
