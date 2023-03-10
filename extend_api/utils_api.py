@@ -39,12 +39,21 @@ class Auto_model():
         r=os.path.join(self.model_dir,self.model_name_like+f'{n}{self.model_extend_name}')
         return r
 
-def newpath(path):
-    d=os.path.split(path)[0]
-    if os.path.exists(d):
-        pass
-    else:
-        os.mkdir(d)
+def newpath(path,isfile=False):
+    assert path[0]!='/'
+    p=[]
+    for i in range(10):
+        if not os.path.exists(path):
+            l,r=os.path.split(path)
+            p.append(r)
+        else:
+            break
+        path=l[:]
+    if isfile:
+        p=p[1:]
+    for _ in p[::-1]:
+        l=os.path.join(l,_)
+        os.mkdir(l)
 
 def re_matchall(pattern,s):
     r=[]
@@ -174,18 +183,15 @@ def truepath(file,*arg):
     return os.path.join(os.path.abspath(os.path.split(file)[0]),*arg)
 
 def url_imshow(urlcontent,headers=None,show=True):
-    import cv2
-    import numpy as np
+    from PIL import Image
+    from io import BytesIO
     # import urllib.request as request
     # response = request.urlopen(urlcontent)
-    img_array = np.array(bytearray(urlcontent), dtype=np.uint8)
+    image = Image.open(BytesIO(urlcontent))
     if show:
-        img_array = cv2.imdecode(img_array, cv2.IMREAD_COLOR)
-        cv2.imshow('i',img_array)
-        cv2.waitKey(0)
-        cv2.destroyAllWindows() 
+        image.show()
     else:
-        return img_array
+        return image
 
 def random_name(n):
     st='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -295,6 +301,8 @@ if __name__ == '__main__':
     
     make_json('chatGPT2_cookies')
     
+    # s=easy_request('https://api.yimian.xyz/img',pic=True)
+    # url_imshow(s.content)
     
     
     
