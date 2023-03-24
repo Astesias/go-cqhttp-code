@@ -90,7 +90,7 @@ def say(pid=configs.test_group,is_group=True):
 
     
 def go_cqhttp():
-    cmd('cd .. && .\go-cqhttp.exe -faststart')
+    cmd('cd .. && ./go-cqhttp.exe -faststart')
 
 def timer(uid=configs.test_group,is_group=True):
     ping=Timer(10*60)
@@ -141,7 +141,11 @@ if __name__ == '__main__':
     
     global tasks
     tasks=[main_,say_,timer_,go_cqhttp_,sender1_,sender2_,sender3_]
-    tasks.remove(go_cqhttp_)
+    import sys
+    if len(sys.argv)>1 and int(sys.argv[1]) :
+        pass
+    else:
+        tasks.remove(go_cqhttp_)
     tasks.remove(timer_)
     # tasks.remove(say_)
     
