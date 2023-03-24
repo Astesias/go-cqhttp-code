@@ -90,7 +90,10 @@ def say(pid=configs.test_group,is_group=True):
 
     
 def go_cqhttp():
-    cmd('cd .. && ./go-cqhttp.exe -faststart')
+    try:
+        cmd('cd .. && ./go-cqhttp.exe -faststart')
+    except:
+        cmd('cd .. && ./go-cqhttp -faststart')
 
 def timer(uid=configs.test_group,is_group=True):
     ping=Timer(10*60)
