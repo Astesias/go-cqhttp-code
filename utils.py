@@ -71,6 +71,7 @@ def cmd(command):
     cmd=subprocess.getstatusoutput(command)
     print(('Success' if not cmd[0] else 'Fail') + ' Command:\n   '+command)
     print(cmd[1].replace('Active code page: 65001',''))
+    return cmd[0]==0
 
     
 if __name__ == '__main__':
