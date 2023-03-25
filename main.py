@@ -90,9 +90,10 @@ def say(pid=configs.test_group,is_group=True):
 
     
 def go_cqhttp():
-    try:
+    import os
+    if os.name=='nt':
         cmd('cd .. && ./go-cqhttp.exe -faststart')
-    except:
+    else:
         cmd('cd .. && ./go-cqhttp -faststart')
 
 def timer(uid=configs.test_group,is_group=True):
