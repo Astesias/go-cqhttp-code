@@ -3,11 +3,11 @@ import time
 
 try:
     from .utils_api import truepath,easy_request,re_args_get
-    from utils import Fplog,logprint
-    path=truepath(__file__,'../log/extend_api/aidraw/log')
-    logger=Fplog(path)
-    def print(*log,logger=logger,**kw):
-        logprint(*log,logger=logger,t=True,**kw)
+    # from utils import Fplog,logprint
+    # path=truepath(__file__,'../log/extend_api/aidraw/log')
+    # logger=Fplog(path)
+    # def print(*log,logger=logger,**kw):
+    #     logprint(*log,logger=logger,t=True,**kw)
 except:
     from utils_api import truepath,easy_request,re_args_get
 
@@ -55,7 +55,7 @@ def draw_setting(msg):
 
 def get_available():
     url='https://cg-api.heyfriday.cn/v1/star/getUserStartTotal'
-    r=easy_request(url=url,header=truepath(__file__,'aidraw_detail.json'),method='GET',)
+    r=easy_request(url=url,header=truepath(__file__,'headers/aidraw_detail.json'),method='GET',)
     try:
         left=r['result']['starNum']
         return int(left)
@@ -99,7 +99,7 @@ def draw(inputText='',reverseWords='',
     
     url= 'https://cg-api.heyfriday.cn/v1/generate/generateImageV3'
     js=easy_request(url,method='POST',
-                    header=truepath(__file__,'aidraw_v3.json'),data=payload)
+                    header=truepath(__file__,'headers/aidraw_v3.json'),data=payload)
     
     try:
         id=js['result']['id']
@@ -110,9 +110,9 @@ def draw(inputText='',reverseWords='',
             return js['result']
      
     url= 'https://cg-api.heyfriday.cn/v1/generate/myPictureDetail?id={}'.format(id)
-    js=easy_request(url,header=truepath(__file__,'aidraw_detail.json'),data=payload)
+    js=easy_request(url,header=truepath(__file__,'headers/aidraw_detail.json'),data=payload)
     while not js['result']['pictureUrl']:
-        js=easy_request(url,header=truepath(__file__,'aidraw_detail.json'),data=payload)
+        js=easy_request(url,header=truepath(__file__,'headers/aidraw_detail.json'),data=payload)
         print(
             # js['result']['usedTime'],
             '.',

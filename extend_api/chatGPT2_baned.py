@@ -6,11 +6,11 @@ import time
 
 try:
     from .utils_api import easy_request,truepath,Auto_model
-    from utils import Fplog,logprint
-    path=truepath(__file__,'../log/extend_api/chat2/log')
-    logger=Fplog(path)
-    def print(*log,logger=logger,**kw):
-        logprint(*log,logger=logger,t=True,**kw)
+    # from utils import Fplog,logprint
+    # path=truepath(__file__,'../log/extend_api/chat2/log')
+    # logger=Fplog(path)
+    # def print(*log,logger=logger,**kw):
+    #     logprint(*log,logger=logger,t=True,**kw)
 except:
     from utils_api import easy_request,truepath,Auto_model
 

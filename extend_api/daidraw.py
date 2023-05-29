@@ -5,18 +5,18 @@ import json
 
 try:
     from .utils_api import truepath,img_writer,easy_request,re_args_get
-    from utils import Fplog,logprint
-    path=truepath(__file__,'../log/extend_api/daidraw/log')
-    logger=Fplog(path)
-    def print(*log,logger=logger,**kw):
-        logprint(*log,logger=logger,t=True,**kw)
+    # from utils import Fplog,logprint
+    # path=truepath(__file__,'../log/extend_api/daidraw/log')
+    # logger=Fplog(path)
+    # def print(*log,logger=logger,**kw):
+    #     logprint(*log,logger=logger,t=True,**kw)
 except:
     from utils_api import truepath,img_writer,easy_request,re_args_get
 
 def get_db_available():
     url='https://pay.draft.art/api/wallet/get'
     r=easy_request(url,method='GET',
-                        header=truepath(__file__,'draft_wallet.json'))
+                        header=truepath(__file__,'headers/draft_wallet.json'))
     amount=r['data']['amount']
     return int(amount)
 
@@ -26,11 +26,11 @@ def get_all_template():
     r.sort(key=lambda x:x['id'])
     for n,_ in enumerate(r):
         print(n,_['id'],_['name'])
-    with open(truepath(__file__,'draft_template_data.json'),'w') as fp:
+    with open(truepath(__file__,'headers/draft_template_data.json'),'w') as fp:
         json.dump(r,fp,ensure_ascii=False,indent=2)
 
 def get_template(ix=0,alltp=False):
-    template=json.load(open(truepath(__file__,'./draft_template_data.json')))
+    template=json.load(open(truepath(__file__,'headers/draft_template_data.json')))
     if alltp:
         return template
     for _ in template:
@@ -140,7 +140,7 @@ def daidu_aidraw(msg):
     url=f'https://api.draft.art/api/util/image/download/4xhd?id={img_id}'
     while 1:
         try:
-            imgurl=easy_request(url,method='GET',header=truepath(__file__,'draft_download.json'))
+            imgurl=easy_request(url,method='GET',header=truepath(__file__,'headers/draft_download.json'))
             imgurl=imgurl['data']['url']
             break
         except:

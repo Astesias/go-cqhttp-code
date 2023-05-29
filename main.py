@@ -27,21 +27,12 @@ class Recver(Resource):
         if _.get('post_type')=='message' or _.get('post_type')=='message_sent':
             TASK.put_nowait(_)
             
-def sender1():
+def sender():
     while 1:
         t=TASK.get()
         sent_msg(t)
         TASK.task_done()
-def sender2():
-    while 1:
-        t=TASK.get()
-        sent_msg(t)
-        TASK.task_done()
-def sender3():
-    while 1:
-        t=TASK.get()
-        sent_msg(t)
-        TASK.task_done()
+
 
 def say(pid=configs.test_group,is_group=True):
     test_json={\
@@ -84,7 +75,7 @@ def say(pid=configs.test_group,is_group=True):
             sent_msg(test_json)
         except:
             print('Error occured:')
-            print(traceback.format_exc()[-80:])
+            print(traceback.format_exc()[-180:])
             print('T2 dead')
             print('Restart T2')
 
@@ -138,13 +129,13 @@ if __name__ == '__main__':
     main_=threading.Thread(target=main,args=[configs.address.split(':')])
     say_=threading.Thread(target=say,args=[configs.test_group,True])
     timer_=threading.Thread(target=timer)
-    sender1_=threading.Thread(target=sender1)
-    sender2_=threading.Thread(target=sender2)
-    sender3_=threading.Thread(target=sender3)
+    sender1=threading.Thread(target=sender)
+    sender2=threading.Thread(target=sender)
+    sender3=threading.Thread(target=sender)
     go_cqhttp_=threading.Thread(target=go_cqhttp)
     
     global tasks
-    tasks=[main_,say_,timer_,go_cqhttp_,sender1_,sender2_,sender3_]
+    tasks=[main_,say_,timer_,go_cqhttp_,sender1,sender2,sender3]
     import sys
     if len(sys.argv)>1 and int(sys.argv[1]) :
         pass

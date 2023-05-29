@@ -4,11 +4,11 @@ import time
 
 try:
     from .utils_api import truepath,img_writer,easy_request,re_args_get
-    from utils import Fplog,logprint
-    path=truepath(__file__,'../log/extend_api/baidraw/log')
-    logger=Fplog(path)
-    def print(*log,logger=logger,**kw):
-        logprint(*log,logger=logger,t=True,**kw)
+    # from utils import Fplog,logprint
+    # path=truepath(__file__,'../log/extend_api/baidraw/log')
+    # logger=Fplog(path)
+    # def print(*log,logger=logger,**kw):
+    #     logprint(*log,logger=logger,t=True,**kw)
 except:
     from utils_api import truepath,img_writer,easy_request,re_args_get
     
@@ -69,7 +69,7 @@ def bdraw_setting(msg):
    
 def get_balance():
     url='https://yige.baidu.com/api/t2p/points/account_balance'
-    balance=easy_request(url=url,header=truepath(__file__,'baidraw_get_url.json'))
+    balance=easy_request(url=url,header=truepath(__file__,'headers/baidraw_get_url.json'))
     return int(balance['data']['balance'])
     
 def baidu_aidraw(msg):
@@ -81,7 +81,7 @@ def baidu_aidraw(msg):
     if len(kws.items())==1:
         payload={"scene": "平面", "style": "唯美二次元风格", "resolution": "1024x1024","query":kw }
         url='https://yige.baidu.com/api/t2p/creation/add_task'
-        tid=easy_request(url=url,header=truepath(__file__,'baidraw_post_data.json'),
+        tid=easy_request(url=url,header=truepath(__file__,'headers/baidraw_post_data.json'),
                          method='POST',data=payload)
     else: 
         url='https://yige.baidu.com/api/t2p/creation/add_custom_task'
@@ -108,7 +108,7 @@ def baidu_aidraw(msg):
         print(resolution)
 
         tid=easy_request(url=url,
-                       header=truepath(__file__,'baidraw_post_data.json'),
+                       header=truepath(__file__,'headers/baidraw_post_data.json'),
                        form_data=(fields,boundary))
     try:
         tid=tid['data']['task_id']
@@ -122,7 +122,7 @@ def baidu_aidraw(msg):
     while 1:
         try:
             url='https://yige.baidu.com/api/t2p/creation/get_queue'
-            tasks=easy_request(url=url,header=truepath(__file__,'baidraw_get_url.json'),
+            tasks=easy_request(url=url,header=truepath(__file__,'headers/baidraw_get_url.json'),
                                method='GET')['data']
             for t in tasks:
                 task_id=t['task_id']
@@ -137,7 +137,7 @@ def baidu_aidraw(msg):
         if retry>10:
             return '生成失败'
     imgurl=imgurl.replace('r_l&v=1','origin&v=1&d=1')
-    imgFile=img_writer(url=imgurl,headers='baidraw_get_img.json')[0]
+    imgFile=img_writer(url=imgurl,headers='headers/baidraw_get_img.json')[0]
     
     return 0,imgFile
 

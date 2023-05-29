@@ -5,11 +5,11 @@ from urllib.parse import quote
 
 try:
     from .utils_api import truepath,img_writer,re_args_get,easy_request,newpath
-    from utils import Fplog,logprint
-    path=truepath(__file__,'../log/extend_api/pixivel/log')
-    logger=Fplog(path)
-    def print(*log,logger=logger,**kw):
-        logprint(*log,logger=logger,t=True,**kw)
+    # from utils import Fplog,logprint
+    # path=truepath(__file__,'../log/extend_api/pixivel/log')
+    # logger=Fplog(path)
+    # def print(*log,logger=logger,**kw):
+    #     logprint(*log,logger=logger,t=True,**kw)
 except:
     from utils_api import truepath,img_writer,re_args_get,easy_request,newpath
 

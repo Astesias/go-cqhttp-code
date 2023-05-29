@@ -11,7 +11,6 @@ from extend_api.aidraw import draw_setting,draw,get_available
 from extend_api.baidraw import baidu_aidraw,get_balance
 from extend_api.daidraw import daidu_aidraw,get_db_available
 from extend_api.utils_api import img_writers,clear_img_cache,img_writer,re_args_get
-from extend_api.chatGPT2 import chat2
 
 from utils import Fplog,logprint,Configs
 configs=Configs('configs.json')
@@ -162,15 +161,15 @@ def is_server_(_,order_form='@ '):
 
 def chatgpt_api(msg,pid,is_group,bf='',ex=''):
     q=chat(msg)
-    r='\nQuestion: {}\nChatGPT: {}'.format(msg,q)
+    r='\nQ: {}\nA: {}'.format(msg,q)
     # print(r)
     asyncio.run(send_msg(pid,r,is_group=is_group,bf=bf))   
 
-def chatgpt2_api(msg,pid,is_group,reset=False,bf='',ex=''):
-    q=chat2(msg,reset=reset)
-    r='\nQuestion: {}\nChatGPT: {}'.format(msg,q)
-    # print(r)
-    asyncio.run(send_msg(pid,r,is_group=is_group,bf=bf))    
+# def chatgpt2_api(msg,pid,is_group,reset=False,bf='',ex=''):
+#     q=chat2(msg,reset=reset)
+#     r='\nQuestion: {}\nChatGPT: {}'.format(msg,q)
+#     # print(r)
+#     asyncio.run(send_msg(pid,r,is_group=is_group,bf=bf))    
     
 def pixivel_api(msg,pid,is_group,bf='',ex=''):
     kws=img_args(msg)

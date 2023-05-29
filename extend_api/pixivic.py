@@ -3,11 +3,11 @@ from datetime import datetime,timedelta
 
 try:
     from .utils_api import truepath,re_args_get,easy_request
-    from utils import Fplog,logprint
-    path=truepath(__file__,'../log/extend_api/pixivic/log')
-    logger=Fplog(path)
-    def print(*log,logger=logger,**kw):
-        logprint(*log,logger=logger,t=True,**kw)
+    # from utils import Fplog,logprint
+    # path=truepath(__file__,'../log/extend_api/pixivic/log')
+    # logger=Fplog(path)
+    # def print(*log,logger=logger,**kw):
+    #     logprint(*log,logger=logger,t=True,**kw)
 except:
     from utils_api import truepath,re_args_get,easy_request
 

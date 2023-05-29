@@ -18,7 +18,7 @@ class Fplog():
         
 class Configs:
     def __init__(self,file='configs.json'):
-        fp=open(file)
+        fp=open(file,encoding='utf8')
         js=fp.read()
         fp.close()
         cfg=demjson.decode(js)
@@ -76,5 +76,5 @@ def cmd(command):
     
 if __name__ == '__main__':
     
-    print(Configs(file='configs-2.json').qq)
+    print(Configs(file='configs.json').qq)
     

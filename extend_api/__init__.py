@@ -1,5 +1,5 @@
 from .chatGPT import *
-from .chatGPT2 import *
+# from .chatGPT2 import *
 from .pixivel import *
 from .pixivic import *
 from .aidraw import *
