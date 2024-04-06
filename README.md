@@ -2,7 +2,10 @@
   <h1>QQ-Bot server codes base on <a href="https://github.com/Mrs4s/go-cqhttp">go-cqhttp</a> </h1>
   <img src="https://img.shields.io/badge/Release-Ver1.0.0-blue.svg">
 </div>
-~~本项目仅供学习交流~~go-cqhttp已经寄了<br>
+
+
+~~本项目仅供学习交流~~
+<br>go-cqhttp已经寄了 项目用的api也基本都寄了<br>
 
 ## 支持命令
 
@@ -57,21 +60,10 @@ ori| bool | False |是否生成原图品质(耗费点数增加)
 * 使用命令时需@机器人qq(私聊时@空格)
 * 参数名后可直接跟参数或使用空格或=后再加参数
 * 参数结束后需加空格表示结束
-* ai绘画合适的promote可参考ai绘画官网
 
 ## 接口详情
-所有接口使用请求头中cookies以保持登录状态,过期后(不常)需登录原网址获取并更换
-### chatGPT
-* 使用国内代理接口
-* 不稳定,可根据需求更换
-### Pixivel & Pixivic
-* 不支持r18
-* 限制级过高可能无法发送
-### ai绘画
-* 每日可登录官网领取免费次数
-* 盗梦师ai关键词较长，使用预置promote与depromote，出图质量较好，赠送点数较多
-* 百度ai关键词较短，promote尽量为多个名词，出图质量一般，赠送点数很多
-* draft模型数多，出图质量好，每天赠送20次当日次数，过期不累加
+所有接口使用请求头中cookies以保持登录状态,过期后需登录原网址获取并更换
+
 ### 拓展
 * 拓展接口可增加到[这里](https://github.com/Astesias/go-cqhttp-code/edit/master/msg_filter.py#L80)
 
