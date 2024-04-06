@@ -2,7 +2,7 @@
   <h1>QQ-Bot server codes base on <a href="https://github.com/Mrs4s/go-cqhttp">go-cqhttp</a> </h1>
   <img src="https://img.shields.io/badge/Release-Ver1.0.0-blue.svg">
 </div>
-~~本项目仅供学习交流go-cqhttp已经寄了~~<br>
+~~本项目仅供学习交流~~go-cqhttp已经寄了<br>
 
 ## 支持命令
 
